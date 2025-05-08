@@ -12,17 +12,20 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 import { IoLocationOutline } from "react-icons/io5";
-import { FiPhoneCall } from "react-icons/fi";
+import { FiGlobe, FiMapPin, FiMoon, FiPhoneCall } from "react-icons/fi";
 import { HiOutlineMail } from "react-icons/hi";
 
 const Footer = () => {
   return (
-    <footer className="bg-HeadingColor-0 relative z-10">
+    <footer className="bg-[#FFFFFF]-0 relative z-10">
       <div className="absolute top-1/4 left-0 right-0 animate-wiggle -z-10">
         <img src={footerShape} />
       </div>
       <div className="Container">
-        <div className="grid grid-cols-1 lg:grid-cols-3 lg:items-center bg-[url('/images/subscribe-bg.png')] bg-bottom sm:bg-right lg:bg-center md:gap-7 lg:gap-0 bg-cover bg-no-repeat py-[30px] px-5 sm:px-10 rounded-b-3xl mb-[120px]">
+      <div className=" sm:text-center py-6 border-t border-[#787a85] w-full mt-24 ">
+          
+        </div>
+        {/* <div className="grid grid-cols-1 lg:grid-cols-3 lg:items-center bg-[url('/images/subscribe-bg.png')] bg-bottom sm:bg-right lg:bg-center md:gap-7 lg:gap-0 bg-cover bg-no-repeat py-[30px] px-5 sm:px-10 rounded-b-3xl mb-[120px]">
           <div className="col-span-1">
             <div className="flex flex-col sm:flex-row sm:items-center gap-6">
               <div className="w-[70px] h-[70px] rounded-full flex items-center justify-center bg-white">
@@ -63,9 +66,10 @@ const Footer = () => {
               </div>
             </form>
           </div>
-        </div>
+        </div> */}
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-12">
-          <div className="2xl:col-span-3">
+          
+          {/* <div className="2xl:col-span-3">
             <img src={footerLogo} />
             <p className="font-Poppins text-white mt-7 mb-9">
               Competently repurpose forward conveniently target e-business
@@ -93,55 +97,213 @@ const Footer = () => {
                 </button>
               </li>
             </ul>
+          </div> */}
+          <div className="2xl:col-span-2">
+            <h4 className="font-Inter text-[14px] text-black  mb-[30px] uppercase font-bold">
+            About Us
+            <hr className="border-t-[2px] border-gray-300 w-full mt-2"/>
+            </h4>
+           
+            <div className="flex gap-5 mb-5">
+              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#183088]">
+                <FiPhoneCall />
+              </div>
+              <div className="flex-1 mt-2">
+              <a href="tel:+966554496650">
+             <h6 className="font-Inter font-medium text-[15px] text-black">+966 554496650</h6>
+              </a>
+
+                
+              </div>
+            </div>
+            <div className="flex gap-5 mb-5">
+              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#183088]">
+                <FiGlobe />
+              </div>
+              <div className="flex-1 mt-2">
+                <a href="https://www.qimamaffan.com/" target="_blank">
+              <h6 className="font-Inter font-medium text-[15px] text-[#FD9F00]">
+              www.qimamaffan.com
+                </h6></a>
+                
+              </div>
+            </div>
+            <div className="flex gap-5 mb-5">
+              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#183088]">
+                <HiOutlineMail />
+              </div>
+              <div className="flex-1 mt-2">
+                <a href="mailto:info@qimamaffan.com">
+              <h6 className="font-Inter font-medium text-[15px]  text-[#FD9F00]">
+              info@qimamaffan.com
+                </h6></a>
+                
+              </div>
+            </div>
+            <div className="flex gap-5 mb-5">
+              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#183088]">
+                <FiMapPin />
+              </div>
+              <div className="flex-1 mt-2">
+                <a href="#">
+              <h6 className="font-Inter font-medium text-[15px] text-black ">
+              Sinaiya Mousa, Riyadh, Saudi Arabia
+                </h6></a>
+                
+              </div>
+            </div>
           </div>
           <div className="2xl:col-span-2">
-            <h4 className="font-Inter text-2xl text-white font-semibold mb-[30px]">
-              Company
+          <h4 className="font-Inter text-[14px] text-black  mb-[30px] uppercase font-bold">
+            Services
+            <hr className="border-t-[2px] border-gray-300 w-full mt-2"/>
             </h4>
             <ul>
               <li>
                 <Link to={"/"}>
-                  <button className="flex items-center gap-2 font-Inter text-white transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4">
-                    <FaChevronRight className="text-sm opacity-50" />
-                    Home
+                  <button className="flex items-center gap-2 font-Inter text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline text-[15px]">
+                    {/* <FaChevronRight className="text-sm opacity-50" /> */}
+                    Repair & Maintenance
+                    
                   </button>
+                  <hr className="border-t-[1px] border-gray-300 w-full -m-0"/>
                 </Link>
               </li>
               <li>
-                <Link to={"/about"}>
-                  <button className="flex items-center gap-2 font-Inter text-white transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4">
-                    <FaChevronRight className="text-sm opacity-50" />
-                    About Us
+                <Link to={"/"}>
+                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                    {/* <FaChevronRight className="text-sm opacity-50" /> */}
+                    Service Contracts
+                    
                   </button>
+                  <hr className="border-t-[1px] border-gray-300 w-full "/>
                 </Link>
               </li>
               <li>
-                <Link to={"/service"}>
-                  <button className="flex items-center gap-2 font-Inter text-white transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4">
-                    <FaChevronRight className="text-sm opacity-50" />
-                    Our Services
+                <Link to={"/"}>
+                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                    {/* <FaChevronRight className="text-sm opacity-50" /> */}
+                    Supplying Spare Parts
+                    
                   </button>
+                  <hr className="border-t-[1px] border-gray-300 w-full "/>
                 </Link>
               </li>
               <li>
-                <Link to={"/team_inner"}>
-                  <button className="flex items-center gap-2 font-Inter text-white transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4">
-                    <FaChevronRight className="text-sm opacity-50" />
-                    Meet Our Team
+                <Link to={"/"}>
+                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                    {/* <FaChevronRight className="text-sm opacity-50" /> */}
+                    Consultancy
+                    
                   </button>
+                  <hr className="border-t-[1px] border-gray-300 w-full "/>
                 </Link>
               </li>
               <li>
-                <Link to={"/blog_list"}>
-                  <button className="flex items-center gap-2 font-Inter text-white transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1">
-                    <FaChevronRight className="text-sm opacity-50" />
-                    Latest Blog
+                <Link to={"/"}>
+                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                    {/* <FaChevronRight className="text-sm opacity-50" /> */}
+                    Trainings
                   </button>
+                  <hr className="border-t-[1px] border-gray-300 w-full "/>
                 </Link>
               </li>
+              
             </ul>
           </div>
-          <div className="2xl:col-span-4">
+
+
+          <div className="2xl:col-span-2">
+          <h4 className="font-Inter text-[14px] text-black  mb-[30px] uppercase font-bold">
+            Menu
+            <hr className="border-t-[2px] border-gray-300 w-full mt-2"/>
+            </h4>
+            <ul>
+              <li>
+                <Link to={"/"}>
+                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline text-[15px]">
+                    {/* <FaChevronRight className="text-sm opacity-50" /> */}
+                    Home
+                    
+                  </button>
+                  <hr className="border-t-[1px] border-gray-300 w-full -m-0"/>
+                </Link>
+              </li>
+              <li>
+                <Link to={"/"}>
+                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                    {/* <FaChevronRight className="text-sm opacity-50" /> */}
+                    About Us
+                    
+                  </button>
+                  <hr className="border-t-[1px] border-gray-300 w-full "/>
+                </Link>
+              </li>
+              <li>
+                <Link to={"/"}>
+                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                    {/* <FaChevronRight className="text-sm opacity-50" /> */}
+                    Contact Us
+                    
+                  </button>
+                  <hr className="border-t-[1px] border-gray-300 w-full "/>
+                </Link>
+              </li>
+              <li>
+                <Link to={"/"}>
+                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                    {/* <FaChevronRight className="text-sm opacity-50" /> */}
+                    Services
+                    
+                  </button>
+                  <hr className="border-t-[1px] border-gray-300 w-full "/>
+                </Link>
+              </li>
+              <li>
+                <Link to={"/"}>
+                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                    {/* <FaChevronRight className="text-sm opacity-50" /> */}
+                    BLOG
+                  </button>
+                  <hr className="border-t-[1px] border-gray-300 w-full "/>
+                </Link>
+              </li>
+              
+            </ul>
+          </div>
+          <div className="2xl:col-span-2">
+          <h4 className="font-Inter text-[14px] text-black  mb-[30px] uppercase font-bold ">
+            Quick Links
+            <hr className="border-t-[2px] border-gray-300 w-full mt-2"/>
+            </h4>
+            <ul>
+              <li>
+                <Link to={"/"}>
+                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline text-[15px]">
+                    {/* <FaChevronRight className="text-sm opacity-50" /> */}
+                    Term and Conditions
+                    
+                  </button>
+                  <hr className="border-t-[1px] border-gray-300 w-full -m-0"/>
+                </Link>
+              </li>
+              <li>
+                <Link to={"/"}>
+                  <button className="flex items-center gap-2 font-Inter text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                    {/* <FaChevronRight className="text-sm opacity-50" /> */}
+                    Privacy Policy
+                    
+                  </button>
+                  <hr className="border-t-[1px] border-gray-300 w-full "/>
+                </Link>
+              </li>
+             
+              
+            </ul>
+          </div>
+
+
+          {/* <div className="2xl:col-span-4">
             <h4 className="font-Inter text-2xl text-white font-semibold mb-9">
               Latest Blog
             </h4>
@@ -177,59 +339,34 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="2xl:col-span-3">
-            <h4 className="font-Inter text-2xl text-white font-semibold mb-10">
-              Latest Blog
-            </h4>
-            <div className="flex gap-5 mb-5">
-              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#183088]">
-                <IoLocationOutline />
-              </div>
-              <div className="flex-1 -mt-1">
-                <h6 className="font-Inter font-medium text-[17px] text-white">
-                  Address
-                </h6>
-                <p className="font-Poppins text-[15px] text-[#B9BBD2] mt-[6px]">
-                  102/B Philosophy Market Road California, USA
-                </p>
-              </div>
-            </div>
-            <div className="flex gap-5 mb-5">
-              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#183088]">
-                <FiPhoneCall />
-              </div>
-              <div className="flex-1 -mt-1">
-                <h6 className="font-Inter font-medium text-[17px] text-white">
-                  Call Us
-                </h6>
-                <p className="font-Poppins text-[15px] text-[#B9BBD2] mt-[6px]">
-                  +880 123 (4567) 890
-                </p>
-              </div>
-            </div>
-            <div className="flex gap-5">
-              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#183088]">
-                <HiOutlineMail />
-              </div>
-              <div className="flex-1 -mt-1">
-                <h6 className="font-Inter font-medium text-[17px] text-white">
-                  Email
-                </h6>
-                <p className="font-Poppins text-[15px] text-[#B9BBD2] mt-[6px]">
-                  example@yahoo.com
-                </p>
-              </div>
-            </div>
-          </div>
+          </div> */}
+          
         </div>
-        <div className="text-left sm:text-center py-6 border-t border-[#334899] mt-24">
-          <p className="font-Poppins text-white">
-            © Copyrights 2024 Cleeny All rights reserved by
+        
+      </div>
+      <div className="text-left sm:text-center py-6 border-t border-[#b1b8d6] mt-14 bg-black">
+        <div className="flex justify-center gap-12">
+        <a href="">
+          <h4 className="text-white">facebook</h4>
+        </a>
+        <a href="">
+          <h4 className="text-white">facebook</h4>
+        </a>
+        <a href="">
+          <h4 className="text-white">facebook</h4>
+        </a>
+        <a href="">
+          <h4 className="text-white">facebook</h4>
+        </a>
+        </div>
+      <div className="text-left sm:text-center py-6 border-t border-[#b1b8d6] bg-black">
+      
+          <p className="font-Poppins text-white  -m-3">
+          Qimam Affan- All Rights Reserved.
             <span className="text-PrimaryColor-0"> Dream IT</span>
           </p>
         </div>
-      </div>
+        </div>
     </footer>
   );
 };
