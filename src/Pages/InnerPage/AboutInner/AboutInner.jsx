@@ -11,8 +11,8 @@ const AboutInner = () => {
       <>
         <Breadcamp
           breadCampTitle={"About Us"}
-          breadcampIcon={<FaArrowRightLong />}
-          breadCampContent={"About Us"}
+          // breadcampIcon={<FaArrowRightLong />}
+          // breadCampContent={"About Us"}
         />
         <About />
         <Support/>

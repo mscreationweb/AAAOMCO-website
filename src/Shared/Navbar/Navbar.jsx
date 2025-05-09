@@ -47,7 +47,7 @@ const Navbar = () => {
       className={`w-full transition-all duration-300 bg-transparent relativee text-[#7d7f8c] z-[99999]`}
     >
       {/* top Navbar */}
-      <header className="bg-SecondaryColor-0 overflow-hidden md:block">
+      {/* <header className="bg-SecondaryColor-0 overflow-hidden md:block">
         <div className="Container flex items-center justify-between">
           <div className="flex items-center gap-10">
             <p className="font-Poppins text-[15px] text-white md:flex items-center gap-1 relative before:absolute before:top-1/2 before:right-0 before:w-[1px] before:h-5 before:bg-BorderColor-0 before-:translate-1/2 hidden">
@@ -112,7 +112,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </header>
+      </header> */}
       {/* top Navbar */}
       <header
         className="header-section bg-white"
