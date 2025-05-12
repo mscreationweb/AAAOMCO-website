@@ -24,6 +24,8 @@ import ServiceDetails4 from "../Pages/InnerPage/ServiceDetails/ServiceDetails4";
 import ServiceDetails6 from "../Pages/InnerPage/ServiceDetails/ServiceDetails6";
 import ServiceDetails3 from "../Pages/InnerPage/ServiceDetails/ServiceDetails3";
 import ServiceDetails2 from "../Pages/InnerPage/ServiceDetails/ServiceDetails2";
+import RepairMaintenance from "../Pages/RepairMaintenance/RepairMaintenance";
+import ServiceContracts from "../Pages/ServiceContracts/ServiceContracts";
 
 const router = createBrowserRouter([
   {
@@ -117,6 +119,14 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactInner />,
+      },
+      {
+        path: "/repair-maintenance",
+        element: <RepairMaintenance/>,
+      },
+      {
+        path: "/service-contracts",
+        element: <ServiceContracts/>,
       },
     ],
   },

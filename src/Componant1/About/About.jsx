@@ -15,7 +15,7 @@ const About = () => {
       <div className="Container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-[92px] lg:gap-5 xl:gap-24 items-center">
           <div className="relative">
-            <img src={aboutThumb} />
+            <img src='https://forklifts.qimamaffan.com/wp-content/uploads/2024/10/shutterstock_248926987.jpg1_.webp'/>
             <div className="absolute top-[4.5rem] right-[3rem]">
               {/* <button
                 className="h-[90px] w-[90px] rounded-full bg-SecondaryColor-0 border-4 border-white text-white flex justify-center items-center relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-SecondaryColor-0 before:opacity-50 before:-z-10 before:rounded-full before:animate-ping"
