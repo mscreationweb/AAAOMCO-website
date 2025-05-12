@@ -25,6 +25,10 @@ import ServiceDetails6 from "../Pages/InnerPage/ServiceDetails/ServiceDetails6";
 import ServiceDetails3 from "../Pages/InnerPage/ServiceDetails/ServiceDetails3";
 import ServiceDetails2 from "../Pages/InnerPage/ServiceDetails/ServiceDetails2";
 import RepairMaintenance from "../Pages/RepairMaintenance/RepairMaintenance";
+import ServiceContracts from "../Pages/ServiceContracts/ServiceContracts";
+import Supplying from "../Pages/Supplying/Supplying";
+import Consultancy from "../Pages/Consultancy/Consultancy";
+import Trainings from "../Pages/Trainings/Trainings";
 
 const router = createBrowserRouter([
   {
@@ -122,6 +126,22 @@ const router = createBrowserRouter([
       {
         path: "/repair-maintenance",
         element: <RepairMaintenance />,
+      },
+      {
+        path: "/service-contracts",
+        element: <ServiceContracts />,
+      },
+      {
+        path: "/supplying-spare-parts",
+        element: <Supplying/>,
+      },
+      {
+        path: "/consultancy",
+        element: <Consultancy/>,
+      },
+      {
+        path: "/trainings",
+        element: <Trainings/>,
       },
     ],
   },

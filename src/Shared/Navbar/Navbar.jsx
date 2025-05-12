@@ -164,7 +164,7 @@ const Navbar = () => {
                 } text-right lg:w-fit ease-in-out flex-1 lg:flex space-y-2 lg:space-y-0 space-x-0  flex flex-col lg:flex-row capitalize text-base lg:bg-transparent py-3 lg:py-0 font-Poppins font-medium text-white transition-all duration-500
                 `}
               >
-                <NavLink
+                {/* <NavLink
                   to="/"
                   className={`${({ isActive, isPending }) =>
                     isPending
@@ -206,6 +206,17 @@ const Navbar = () => {
                       </div>
                     </ul>
                   </div>
+                </NavLink> */}
+                <NavLink
+                  className={`${({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "active"
+                      : ""} text-HeadingColor-0 text-left hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
+                  to="/"
+                >
+                  <span>Home</span>
                 </NavLink>
                 <NavLink
                   className={`${({ isActive, isPending }) =>
@@ -235,15 +246,36 @@ const Navbar = () => {
                     <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[220px] text-left transition-all duration-500 text-sm py-4 bg-HeadingColor-0 ">
                       <div className=" px-5 group hover:bg-SecondaryColor-0 ">
                         <li className="hover:ml-3 duration-300">
-                          <Link to="/service" className="py-2 block">
-                            Our Service
+                          <Link to="/repair-maintenance" className="py-2 block">
+                          Repair & Maintenance
                           </Link>
                         </li>
                       </div>
                       <div className=" px-5 group hover:bg-SecondaryColor-0 ">
                         <li className="hover:ml-3 duration-300">
-                          <Link to="/service_details" className="py-2 block">
-                            Service Details
+                          <Link to="/service-contracts" className="py-2 block">
+                          Service Contracts
+                          </Link>
+                        </li>
+                      </div>
+                      <div className=" px-5 group hover:bg-SecondaryColor-0 ">
+                        <li className="hover:ml-3 duration-300">
+                          <Link to="/supplying-spare-parts" className="py-2 block">
+                          Supplying Spare Parts
+                          </Link>
+                        </li>
+                      </div>
+                      <div className=" px-5 group hover:bg-SecondaryColor-0 ">
+                        <li className="hover:ml-3 duration-300">
+                          <Link to="/consultancy" className="py-2 block">
+                          Consultancy
+                          </Link>
+                        </li>
+                      </div>
+                      <div className=" px-5 group hover:bg-SecondaryColor-0 ">
+                        <li className="hover:ml-3 duration-300">
+                          <Link to="/trainings" className="py-2 block">
+                          Trainings
                           </Link>
                         </li>
                       </div>

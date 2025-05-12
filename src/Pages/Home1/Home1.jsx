@@ -10,6 +10,8 @@ import ProcessCard from "../../Componant1/Process/Process";
 import Service from "../../Componant1/Service/Service";
 import Support from "../../Componant1/Support/Support";
 import Testimonial from "../../Componant1/Testimonial/Testimonial";
+import ImageGrid from "../../Componant1/ImageGrid/ImageGrid";
+import TeamWork from "../../Componant1/TeamWork/TeamWork";
 
 const Home1 = () => {
   return (
@@ -19,15 +21,18 @@ const Home1 = () => {
       <Blog />
       <Support />
       <About />
-
-      <Service />
-      <ProcessCard/>
-      <Portfolio/>
-      
-      <Pricing />
-      <Testimonial />
-      
       <Brand/>
+      <ImageGrid/>
+      <TeamWork/>
+
+      {/* <Service /> */}
+      {/* <ProcessCard/> */}
+      {/* <Portfolio/> */}
+      
+      {/* <Pricing /> */}
+      {/* <Testimonial /> */}
+      
+      
     </>
   );
 };
