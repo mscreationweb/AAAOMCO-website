@@ -14,6 +14,7 @@ import {
 import { IoLocationOutline } from "react-icons/io5";
 import { FiGlobe, FiMapPin, FiMoon, FiPhoneCall } from "react-icons/fi";
 import { HiOutlineMail } from "react-icons/hi";
+import { BsInstagram, BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -59,7 +60,7 @@ const Footer = () => {
               <div className="absolute right-0 top-0">
                 <button
                   type="submit"
-                  className="w-[122px] h-[56px] bg-HeadingColor-0 font-medium font-Inter text-white border-none outline-0 rounded-r-md flex items-center justify-center gap-2 relative z-10 overflow-hidden before:absolute before:top-0 before:right-0 before:w-0 before:h-full before:bg-PrimaryColor-0 before:-z-10 before:transition-all before:duration-500 hover:before:w-full hover:before:left-0"
+                  className="w-[122px] h-[56px] bg-HeadingColor-0 font-medium font-Inter text-white border-none outline-0 rounded-r-md flex items-center justify-center gap-2 relative z-10 overflow-hidden before:absolute before:top-0 before:right-0 before:w-0 before:h-full before:bg-[#02416A] before:-z-10 before:transition-all before:duration-500 hover:before:w-full hover:before:left-0"
                 >
                   Subscribe
                 </button>
@@ -105,7 +106,7 @@ const Footer = () => {
             </h4>
            
             <div className="flex gap-5 mb-5">
-              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#183088]">
+              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#02416A]">
                 <FiPhoneCall />
               </div>
               <div className="flex-1 mt-2">
@@ -117,31 +118,31 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex gap-5 mb-5">
-              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#183088]">
+              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#02416A]">
                 <FiGlobe />
               </div>
               <div className="flex-1 mt-2">
                 <a href="https://www.qimamaffan.com/" target="_blank">
-              <h6 className="font-Inter font-medium text-[15px] text-[#FD9F00]">
+              <h6 className="font-Inter font-medium text-[15px] text-[#02416A]">
               www.qimamaffan.com
                 </h6></a>
                 
               </div>
             </div>
             <div className="flex gap-5 mb-5">
-              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#183088]">
+              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#02416A]">
                 <HiOutlineMail />
               </div>
               <div className="flex-1 mt-2">
                 <a href="mailto:info@qimamaffan.com">
-              <h6 className="font-Inter font-medium text-[15px]  text-[#FD9F00]">
+              <h6 className="font-Inter font-medium text-[15px]  text-[#02416A]">
               info@qimamaffan.com
                 </h6></a>
                 
               </div>
             </div>
             <div className="flex gap-5 mb-5">
-              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#183088]">
+              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#02416A]">
                 <FiMapPin />
               </div>
               <div className="flex-1 mt-2">
@@ -161,7 +162,7 @@ const Footer = () => {
             <ul>
               <li>
                 <Link to={"/"}>
-                  <button className="flex items-center gap-2 font-Inter text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline text-[15px]">
+                  <button className="flex items-center gap-2 font-Inter text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     Repair & Maintenance
                     
@@ -171,7 +172,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to={"/"}>
-                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                  <button className="flex items-center gap-2 font-Inter  text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     Service Contracts
                     
@@ -181,7 +182,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to={"/"}>
-                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                  <button className="flex items-center gap-2 font-Inter  text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     Supplying Spare Parts
                     
@@ -191,7 +192,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to={"/"}>
-                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                  <button className="flex items-center gap-2 font-Inter  text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     Consultancy
                     
@@ -201,7 +202,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to={"/"}>
-                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                  <button className="flex items-center gap-2 font-Inter  text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     Trainings
                   </button>
@@ -221,7 +222,7 @@ const Footer = () => {
             <ul>
               <li>
                 <Link to={"/"}>
-                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline text-[15px]">
+                  <button className="flex items-center gap-2 font-Inter  text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     Home
                     
@@ -231,7 +232,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to={"/"}>
-                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                  <button className="flex items-center gap-2 font-Inter  text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     About Us
                     
@@ -241,7 +242,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to={"/"}>
-                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                  <button className="flex items-center gap-2 font-Inter  text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     Contact Us
                     
@@ -251,7 +252,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to={"/"}>
-                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                  <button className="flex items-center gap-2 font-Inter  text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     Services
                     
@@ -261,7 +262,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to={"/"}>
-                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                  <button className="flex items-center gap-2 font-Inter  text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     BLOG
                   </button>
@@ -279,7 +280,7 @@ const Footer = () => {
             <ul>
               <li>
                 <Link to={"/"}>
-                  <button className="flex items-center gap-2 font-Inter  text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline text-[15px]">
+                  <button className="flex items-center gap-2 font-Inter  text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     Term and Conditions
                     
@@ -289,7 +290,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to={"/"}>
-                  <button className="flex items-center gap-2 font-Inter text-[#FD9F00] transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
+                  <button className="flex items-center gap-2 font-Inter text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     Privacy Policy
                     
@@ -313,7 +314,7 @@ const Footer = () => {
               </div>
               <div className="flex-1">
                 <Link to={"/blog_details"}>
-                  <button className="font-Inter font-medium text-white text-left xl:text-base 2xl:text-lg transition-all duration-500 hover:text-PrimaryColor-0">
+                  <button className="font-Inter font-medium text-white text-left xl:text-base 2xl:text-lg transition-all duration-500 hover:text-[#02416A]">
                     10 Most Popular Clean <br className="hidden 2xl:block" />{" "}
                     Tips for Housey
                   </button>
@@ -329,7 +330,7 @@ const Footer = () => {
               </div>
               <div className="flex-1">
                 <Link to={"/blog_details"}>
-                  <button className="font-Inter font-medium text-white text-left xl:text-base 2xl:text-lg transition-all duration-500 hover:text-PrimaryColor-0">
+                  <button className="font-Inter font-medium text-white text-left xl:text-base 2xl:text-lg transition-all duration-500 hover:text-[#02416A]">
                     Floor cleeny and <br className="hidden 2xl:block" /> Washing
                     New...
                   </button>
@@ -344,26 +345,62 @@ const Footer = () => {
         </div>
         
       </div>
-      <div className="text-left sm:text-center py-6 border-t border-[#b1b8d6] mt-14 bg-black">
-        <div className="flex justify-center gap-12">
+      <div className="text-left sm:text-center py-6 border-t border-[#b1b8d6] mt-14 bg-[ bg-[#111111]">
+        {/* <div className="flex justify-center gap-12">
         <a href="">
-          <h4 className="text-white">facebook</h4>
+          <h4 className="text-white uppercase">facebook</h4>
         </a>
-        <a href="">
-          <h4 className="text-white">facebook</h4>
-        </a>
-        <a href="">
-          <h4 className="text-white">facebook</h4>
-        </a>
-        <a href="">
-          <h4 className="text-white">facebook</h4>
-        </a>
-        </div>
-      <div className="text-left sm:text-center py-6 border-t border-[#b1b8d6] bg-black">
       
-          <p className="font-Poppins text-white  -m-3">
-          Qimam Affan- All Rights Reserved.
-            <span className="text-PrimaryColor-0"> Dream IT</span>
+        <a href="">
+          <h4 className="text-white uppercase">Instagram</h4>
+        </a>
+        <a href="">
+          <h4 className="text-white uppercase"> Whatsapp</h4>
+        </a>
+        <a href="">
+          <h4 className="text-white uppercase">Linkedin</h4>
+        </a>
+        </div> */}
+       <ul className="flex gap-6 text-white uppercase justify-center mb-4">
+  {/* Facebook */}
+  <li className="flex items-center gap-2">
+    <button className="w-8 h-8 rounded-full border-2 border-[#02416A] flex items-center justify-center text-white overflow-hidden transition-all duration-500 hover:border-SecondaryColor-0 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
+      <FaFacebookF />
+    </button>
+    <span className="font-bold text-[14px] hover:text-[#02416A] hidden sm:block">Facebook</span>
+  </li>
+
+  {/* Instagram */}
+  <li className="flex items-center gap-2">
+    <button className="w-8 h-8 rounded-full border-2 border-[#02416A] flex items-center justify-center text-white overflow-hidden transition-all duration-500 hover:border-SecondaryColor-0 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
+      <BsInstagram />
+    </button>
+    <span className="font-bold text-[14px] hover:text-[#02416A] hidden sm:block">Instagram</span>
+  </li>
+
+  {/* WhatsApp */}
+  <li className="flex items-center gap-2">
+    <button className="w-8 h-8 rounded-full border-2 border-[#02416A] flex items-center justify-center text-white overflow-hidden transition-all duration-500 hover:border-SecondaryColor-0 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
+      <BsWhatsapp />
+    </button>
+    <span className="font-bold text-[14px] hover:text-[#02416A] hidden sm:block">WhatsApp</span>
+  </li>
+
+  {/* LinkedIn */}
+  <li className="flex items-center gap-2">
+    <button className="w-8 h-8 rounded-full border-2 border-[#02416A] flex items-center justify-center text-white overflow-hidden transition-all duration-500 hover:border-SecondaryColor-0 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
+      <FaLinkedinIn />
+    </button>
+    <span className="font-bold text-[14px] hover:text-[#02416A] hidden sm:block">LinkedIn</span>
+  </li>
+</ul>
+
+
+      <div className="text-left sm:text-center py-4 border-t border-[#b1b8d6] bg-[#111111] mb-0">
+      
+          <p className="font-Poppins text-[#999999]   text-[14px] font-normal  text-center sm:text-left lg:text-center">
+          © Qimam Affan- All Rights Reserved.
+            {/* <span className="text-[#999999]"> Dream IT</span> */}
           </p>
         </div>
         </div>

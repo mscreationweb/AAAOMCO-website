@@ -9,7 +9,7 @@ const Service = () => {
         src={serviceShape}
         className="absolute top-0 left-0 right-0 animate-zoomInOut -z-10"
       />
-      <Appoinment />
+      {/* <Appoinment /> */}
       <ServiceMain />
     </div>
   );

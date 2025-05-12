@@ -1,6 +1,7 @@
 import About from "../../Componant1/About/About";
-import Banner from "../../Componant1/Banner/Banner";
-import Blog from "../../Componant1/Blog/Blog";
+// import Banner from "../../Componant1/Banner/Banner";
+import Banner from "../../Componant2/Banner/Banner";
+import Blog from "../../Componant3/Blog/Blog";
 import Brand from "../../Componant1/Brand/Brand";
 import Feature from "../../Componant1/Feature/Feature";
 import Portfolio from "../../Componant1/Portfolio/Portfolio";
@@ -15,14 +16,17 @@ const Home1 = () => {
     <>
       <Banner />
       <Feature />
+      <Blog />
+      <Support />
       <About />
+
       <Service />
       <ProcessCard/>
       <Portfolio/>
-      <Support />
+      
       <Pricing />
       <Testimonial />
-      <Blog />
+      
       <Brand/>
     </>
   );
