@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
-import processIcon from "/images/work-icon.png";
-import processIcon2 from "/images/work-icon2.png";
-import processIcon3 from "/images/work-icon3.png";
+import processIcon from "/images/allimg/icons/5.png";
+import processIcon2 from "/images/allimg/icons/6.png";
+import processIcon3 from "/images/allimg/icons/7.png";
 import processShape from "/images/work-shape3.png";
 import processShape2 from "/images/work-shape4.png";
 import boxShape from "/images/work-shape.png";
@@ -13,23 +13,23 @@ const processData = [
     processIcon: processIcon,
     boxNumber: "1",
     boxShape: boxShape,
-    processTitle: "Find Us Online",
-    processDesc: "Repurpose go forward benefits more conveniently e-business",
+    processTitle: "ADDRESS",
+    processDesc: "2nd Industrial City Services Centre , Riyadh Saudi Arabia",
   },
   {
     id: 2,
     processIcon: processIcon2,
     boxNumber: "2",
     boxShape: boxShape,
-    processTitle: "Choose Services",
-    processDesc: "Repurpose go forward benefits more conveniently e-business",
+    processTitle: "PHONE",
+    processDesc: "+966 554 496 650",
   },
   {
     id: 3,
     processIcon: processIcon3,
     boxNumber: "3",
-    processTitle: "Book Appoinment",
-    processDesc: "Repurpose go forward benefits more conveniently e-business",
+    processTitle: "EMAIL",
+    processDesc: "info@qimamaffan.com",
   },
 ];
 
@@ -49,7 +49,7 @@ const Process = () => {
         />
       </div>
       <div className="Container">
-        <div className="text-center">
+        {/* <div className="text-center">
           <div>
             <h5 className="font-Inter font-medium text-SecondaryColor-0">
               WORKING PROCESS
@@ -63,7 +63,7 @@ const Process = () => {
               e-business opportunities whereas
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="pb-16 mt-[60px]">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
             {processData.map(

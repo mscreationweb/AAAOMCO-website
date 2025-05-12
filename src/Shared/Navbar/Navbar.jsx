@@ -213,22 +213,12 @@ const Navbar = () => {
                       ? "pending"
                       : isActive
                       ? "active"
-                      : ""} text-HeadingColor-0 text-left hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
+                      : ""} text-[#02416A] text-left hover:text-[#FD9F00] lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
                   to="/"
                 >
                   <span>Home</span>
                 </NavLink>
-                <NavLink
-                  className={`${({ isActive, isPending }) =>
-                    isPending
-                      ? "pending"
-                      : isActive
-                      ? "active"
-                      : ""} text-HeadingColor-0 text-left hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
-                  to="/about"
-                >
-                  <span>About</span>
-                </NavLink>
+               
                 <NavLink
                   className={`${({ isActive, isPending }) =>
                     isPending
@@ -283,6 +273,17 @@ const Navbar = () => {
                   </div>
                 </NavLink>
                 <NavLink
+                  className={`${({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "active"
+                      : ""} text-HeadingColor-0 text-left hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
+                  to="/about"
+                >
+                  <span>About Us</span>
+                </NavLink>
+                {/* <NavLink
                   className={`${({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -362,9 +363,9 @@ const Navbar = () => {
                       </div>
                     </ul>
                   </div>
-                </NavLink>
+                </NavLink> */}
                 {/* blog sub menu link */}
-                <NavLink
+                {/* <NavLink
                   className={`${({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -402,7 +403,7 @@ const Navbar = () => {
                       </div>
                     </ul>
                   </div>
-                </NavLink>
+                </NavLink> */}
                 <NavLink
                   className={`${({ isActive, isPending }) =>
                     isPending
@@ -412,16 +413,16 @@ const Navbar = () => {
                       : ""} text-HeadingColor-0 text-left lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300`}
                   to="/contact"
                 >
-                  Contact
+                  Contact Us
                 </NavLink>
               </ul>
               <div className="hidden lg:flex items-center">
                 <Link to={"/"}>
-                  <IoSearch className="text-xl ml-2 mr-7 text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0" />
+                  {/* <IoSearch className="text-xl ml-2 mr-7 text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0" /> */}
                 </Link>
-                <Link to={"/appointment"} className="header-btn">
+                {/* <Link to={"/appointment"} className="header-btn">
                   Get Free Quote
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
