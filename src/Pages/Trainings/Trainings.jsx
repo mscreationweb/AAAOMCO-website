@@ -63,7 +63,7 @@ const Trainings  = () => {
                     </h6>
                   </div> */}
                   <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5">At
-                  <span className="text-[#FD9F00] font-medium">Qimam Affan </span>,we provide outstanding forklift training aimed at individuals wanting to become skilled and certified forklift operators. Our training equips you to proficiently use different models of forklifts and get your forklift driving license in Saudi Arabia. This training is critical for those wishing to work as a forklift drivers, and it also offers career enhancement opportunities in diverse industries across the kingdom.
+                  <span className="text-[#FD9F00] font-medium">Advanced Accurate Arabia Operation & Maintenance co </span>,we provide outstanding forklift training aimed at individuals wanting to become skilled and certified forklift operators. Our training equips you to proficiently use different models of forklifts and get your forklift driving license in Saudi Arabia. This training is critical for those wishing to work as a forklift drivers, and it also offers career enhancement opportunities in diverse industries across the kingdom.
                   </p>
                   <p className="font-Poppins font-light text-black  pt-5">With no prior knowledge or experience, our training prepares you to effectively operate a forklift. The demand for skilled forklift operators has been rising in Saudi Arabia and we are willing to offer you the best training available.
                   </p>
@@ -310,7 +310,7 @@ Providing additional support training and safety refresher courses for those who
 
 
                   {/* <p className="font-Poppins font-light ">
-                  By selecting Qimam Affan, you are not just another customer for us, but rather someone that we put our full efforts in making sure you achieve success in your business. We want to make sure you have success in business, and that’s why we put all the heavy lifting on our shoulders. We guarantee there won’t be any extra expenses when you use our maintenance and repair services because we charge reasonable prices and don’t hide any fees. Our highly trained operators are available to help you with anything from regular maintenance of your forklift to emergency repairs, and even guidance on how much a forklift costs in KSA. With us, your business can always be running at an optimal level because we provide
+                  By selectingAdvanced Accurate Arabia Operation & Maintenance co, you are not just another customer for us, but rather someone that we put our full efforts in making sure you achieve success in your business. We want to make sure you have success in business, and that’s why we put all the heavy lifting on our shoulders. We guarantee there won’t be any extra expenses when you use our maintenance and repair services because we charge reasonable prices and don’t hide any fees. Our highly trained operators are available to help you with anything from regular maintenance of your forklift to emergency repairs, and even guidance on how much a forklift costs in KSA. With us, your business can always be running at an optimal level because we provide
                   <span className="text-[#FD9F00] font-medium">  training </span>,maintenance services and ensure your forklifts are functional.
                   </p> */}
 

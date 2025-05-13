@@ -63,7 +63,7 @@ const Consultancy  = () => {
                     </h6>
                   </div> */}
                   <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5">At
-                  <span className="text-[#FD9F00] font-medium">Qimam Affan </span> Forklifts, we provide top-ranked forklift management and maintenance. With us you can avoid the risk to your fleet’s quality, achieve greater for safety than ever before and make it easier on your loads too in all respects. No matter whether you’re eager for forklift safety precautions information, from how use a forklift right on through other types and what’s in their prices here (KSA), need a better forklift operator than any other that’s being considered this is the firm into which you will want to put your trust!
+                  <span className="text-[#FD9F00] font-medium">Advanced Accurate Arabia Operation & Maintenance co </span> Forklifts, we provide top-ranked forklift management and maintenance. With us you can avoid the risk to your fleet’s quality, achieve greater for safety than ever before and make it easier on your loads too in all respects. No matter whether you’re eager for forklift safety precautions information, from how use a forklift right on through other types and what’s in their prices here (KSA), need a better forklift operator than any other that’s being considered this is the firm into which you will want to put your trust!
                   </p>
                   {/* <p className="font-Poppins font-light text-black mt-5">
                   For peak performance of your forklift, you need our maintenance and repair services to avoid costly repairs and unexpected breakdowns. Our tailored shred quality services fully meets clients’ repair and service needs across a range of popular forklift brands including electric, cat, Toyota and many other branded models
@@ -87,7 +87,7 @@ const Consultancy  = () => {
                     Fleet Management Optimization
                     </button>
                   <p className="font-Poppins font-light ">
-                Operational efficiency is essential for maintaining a forklift fleet. At Qimam Affan we excel in optimizing forklift fleet operations by
+                Operational efficiency is essential for maintaining a forklift fleet. AtAdvanced Accurate Arabia Operation & Maintenance co we excel in optimizing forklift fleet operations by
                   </p><br/>
             {/* <div> <FaSquare size={10} className="text-[#313131]" />
             </div>
@@ -266,7 +266,7 @@ Strategic consultation for cost-saving fleet management.
   Operational Efficiency Improvements
                     </button>
                     <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5">
-                    At Qimam Affan Fork-lifts, we use our expert consultancy service and data-driven strategies to improve productivity. Our efficiency measures cover:
+                    AtAdvanced Accurate Arabia Operation & Maintenance co Fork-lifts, we use our expert consultancy service and data-driven strategies to improve productivity. Our efficiency measures cover:
                   </p>
 
  <div className="flex items-start gap-2 lg:ml-5">
@@ -316,7 +316,7 @@ Enhancing forklift operator efficiency through structured training programs.
  Technology Integration and Innovation
                     </button>
                     <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5">
-                    At Qimam Affan we make full use of cutting-edge technologies in improving forklift maintenance and operational performance. This includes:
+                    AtAdvanced Accurate Arabia Operation & Maintenance co we make full use of cutting-edge technologies in improving forklift maintenance and operational performance. This includes:
                   </p>
 
  <div className="flex items-start gap-2 lg:ml-5">
@@ -355,7 +355,7 @@ Integration of software solutions for seamless fleet coordination.
 
 
                   <button className="font-Inter font-semibold text-left text-xl sm:text-2xl text-[#02416A] transition-all duration-500 hover:[#02416A] mt-14 mb-4">
-                 Why Choose Qimam Affan for Forklift Services?
+                 Why ChooseAdvanced Accurate Arabia Operation & Maintenance co for Forklift Services?
                     </button>
                    
 
@@ -405,7 +405,7 @@ Integration of software solutions for seamless fleet coordination.
 
 
                   {/* <p className="font-Poppins font-light ">
-                  By selecting Qimam Affan, you are not just another customer for us, but rather someone that we put our full efforts in making sure you achieve success in your business. We want to make sure you have success in business, and that’s why we put all the heavy lifting on our shoulders. We guarantee there won’t be any extra expenses when you use our maintenance and repair services because we charge reasonable prices and don’t hide any fees. Our highly trained operators are available to help you with anything from regular maintenance of your forklift to emergency repairs, and even guidance on how much a forklift costs in KSA. With us, your business can always be running at an optimal level because we provide
+                  By selectingAdvanced Accurate Arabia Operation & Maintenance co, you are not just another customer for us, but rather someone that we put our full efforts in making sure you achieve success in your business. We want to make sure you have success in business, and that’s why we put all the heavy lifting on our shoulders. We guarantee there won’t be any extra expenses when you use our maintenance and repair services because we charge reasonable prices and don’t hide any fees. Our highly trained operators are available to help you with anything from regular maintenance of your forklift to emergency repairs, and even guidance on how much a forklift costs in KSA. With us, your business can always be running at an optimal level because we provide
                   <span className="text-[#FD9F00] font-medium">  training </span>,maintenance services and ensure your forklifts are functional.
                   </p> */}
 
@@ -414,7 +414,7 @@ Integration of software solutions for seamless fleet coordination.
                   Contact Us
                     </button>
                   <p className="font-Poppins font-light mb-14">
-                 At Qimam Affan Forklifts, we are committed to providing expert forklift consultancy services and 
+                 AtAdvanced Accurate Arabia Operation & Maintenance co Forklifts, we are committed to providing expert forklift consultancy services and 
                   <span className="text-[#FD9F00] font-medium"> training </span> to help you enhance efficiency, safety, and cost-effectiveness. Whether you need fleet management optimization, forklift safety guidance, or customized maintenance strategies, our experts are here to assist.
                    <span className="text-[#FD9F00] font-medium"> Contact us  </span>today to discuss how we can support your forklift operations!
                   </p>

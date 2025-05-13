@@ -63,7 +63,7 @@ const Supplying  = () => {
                     </h6>
                   </div> */}
                   <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5">
-                  <span className="text-[#FD9F00] font-medium">Qimam Affan </span> is your trusted partner if you are looking for high-quality forklift parts. We strive to ensure your material handling equipment is always in excellent working condition. Whether it is a manual, electric, or Toyota forklift, we offer parts that allow your machines to operate unhindered. All the parts we supply come with warranties, which guarantees performance and durability. We know the extent to which a malfunctioning forklift can hinder your operations, which is why we offer unrivalled quality and variety in warranty-backed forklift parts from reputable brands.
+                  <span className="text-[#FD9F00] font-medium">Advanced Accurate Arabia Operation & Maintenance co </span> is your trusted partner if you are looking for high-quality forklift parts. We strive to ensure your material handling equipment is always in excellent working condition. Whether it is a manual, electric, or Toyota forklift, we offer parts that allow your machines to operate unhindered. All the parts we supply come with warranties, which guarantees performance and durability. We know the extent to which a malfunctioning forklift can hinder your operations, which is why we offer unrivalled quality and variety in warranty-backed forklift parts from reputable brands.
                   </p>
                   {/* <p className="font-Poppins font-light text-black mt-5">
                   For peak performance of your forklift, you need our maintenance and repair services to avoid costly repairs and unexpected breakdowns. Our tailored shred quality services fully meets clients’ repair and service needs across a range of popular forklift brands including electric, cat, Toyota and many other branded models
@@ -127,7 +127,7 @@ const Supplying  = () => {
   <FaSquare size={20} className="mt-1 text-[#313131] sm:font-black text-2xl"  />
   <p className="font-Poppins text-[#313131]">
     <span className="font-bold">Returns and Exchanges:</span> 
-    We are always willing to adjust our approach just like you. That is why, at Qimam Affan, we empathize with one’s inability to adjust, which is why we allow returns and exchanges for all our goods. If a purchase leaves you dissatisfied, we guarantee satisfaction and a willingness to work on resolving compliance issues.
+    We are always willing to adjust our approach just like you. That is why, atAdvanced Accurate Arabia Operation & Maintenance co, we empathize with one’s inability to adjust, which is why we allow returns and exchanges for all our goods. If a purchase leaves you dissatisfied, we guarantee satisfaction and a willingness to work on resolving compliance issues.
    
   </p>
 </div>
@@ -140,7 +140,7 @@ const Supplying  = () => {
   <FaSquare size={15} className="mt-1 text-[#313131]"  />
   <p className="font-Poppins text-[#313131]">
     <span className="font-bold">Best Prices: </span> 
-    Parts for your forklift are always sought after at the most reasonable prices. Here at Qimam Affan, we offer the most competitive prices, whether you are seeking a forklift price in KSA or special parts for an electric forklift. Always know, our parts give value beyond cost.
+    Parts for your forklift are always sought after at the most reasonable prices. Here atAdvanced Accurate Arabia Operation & Maintenance co, we offer the most competitive prices, whether you are seeking a forklift price in KSA or special parts for an electric forklift. Always know, our parts give value beyond cost.
    
   </p>
 </div>
@@ -386,7 +386,7 @@ const Supplying  = () => {
 
 
                   {/* <p className="font-Poppins font-light ">
-                  By selecting Qimam Affan, you are not just another customer for us, but rather someone that we put our full efforts in making sure you achieve success in your business. We want to make sure you have success in business, and that’s why we put all the heavy lifting on our shoulders. We guarantee there won’t be any extra expenses when you use our maintenance and repair services because we charge reasonable prices and don’t hide any fees. Our highly trained operators are available to help you with anything from regular maintenance of your forklift to emergency repairs, and even guidance on how much a forklift costs in KSA. With us, your business can always be running at an optimal level because we provide
+                  By selectingAdvanced Accurate Arabia Operation & Maintenance co, you are not just another customer for us, but rather someone that we put our full efforts in making sure you achieve success in your business. We want to make sure you have success in business, and that’s why we put all the heavy lifting on our shoulders. We guarantee there won’t be any extra expenses when you use our maintenance and repair services because we charge reasonable prices and don’t hide any fees. Our highly trained operators are available to help you with anything from regular maintenance of your forklift to emergency repairs, and even guidance on how much a forklift costs in KSA. With us, your business can always be running at an optimal level because we provide
                   <span className="text-[#FD9F00] font-medium">  training </span>,maintenance services and ensure your forklifts are functional.
                   </p> */}
 
@@ -404,7 +404,7 @@ const Supplying  = () => {
                   Contact Us for Forklift Spare Parts and Services
                     </button>
                   <p className="font-Poppins font-light mb-14">
-                  Qimam Affan is your one-stop shop for all material handling equipment and forklift parts services. We guarantee the highest quality of any service offered in the industry. If you’re looking for a forklift belt or even  forklift charger parts, we’re just a few clicks away. 
+                 Advanced Accurate Arabia Operation & Maintenance co is your one-stop shop for all material handling equipment and forklift parts services. We guarantee the highest quality of any service offered in the industry. If you’re looking for a forklift belt or even  forklift charger parts, we’re just a few clicks away. 
                   <span className="text-[#FD9F00] font-medium"> Contact us</span> for more details about our products, warranty service provisions, and our customer-friendly return and exchange options. We are your dependable source for all forklift parts available.
                   </p>
   

@@ -64,7 +64,7 @@ const ServiceContracts = () => {
                     </h6>
                   </div> */}
                   <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5">
-                  At <span className="text-[#FD9F00] font-medium">Qimam Affan </span>,we take pride in offering specialized forklift services designed to keep your operations running seamlessly. We understand how important it is to have good equipment and how critical uninterrupted operation is. So offer personalized solutions tailored towards your actual business needs. Whether it is for forklift repair and maintenance, forklift rental services or forklift operator expert support whenever needed, our well trained and highly skilled team will bring you excellent quality service without interrupting your operations
+                  At <span className="text-[#FD9F00] font-medium">Advanced Accurate Arabia Operation & Maintenance co </span>,we take pride in offering specialized forklift services designed to keep your operations running seamlessly. We understand how important it is to have good equipment and how critical uninterrupted operation is. So offer personalized solutions tailored towards your actual business needs. Whether it is for forklift repair and maintenance, forklift rental services or forklift operator expert support whenever needed, our well trained and highly skilled team will bring you excellent quality service without interrupting your operations
                   </p>
                   <p className="font-Poppins font-light text-black mt-5">
                   Highly committed to making sure that your equipment works as it could so that occupation is optimal, Qimam Service ‘s expert team not only carries out maintenance and repairs, but can also offer flexible service scheduling to suit the needs of your operation. Owing to our breadth and attention to detail, you will always receive the highest level of service from us. This is how we set ourselves apart and provide one of the finest possible forklift services in this industry:
@@ -123,7 +123,7 @@ const ServiceContracts = () => {
                   Performance Metrics and Continuous Improvement
                     </button>
                   <p className="font-Poppins font-light ">
-                  We believe in striving for constant improvement. Our goal at  Qimam affan is to constantly improve these metrics by evaluating your forklift rental service or maintenance contract regularly and quantifying any excellent one-year making your repeated orders consecutive every 13 months; which makes our jobs even easier because we don’t even have to ask if you want them renewed as we 
+                  We believe in striving for constant improvement. Our goal at Advanced Accurate Arabia Operation & Maintenance co is to constantly improve these metrics by evaluating your forklift rental service or maintenance contract regularly and quantifying any excellent one-year making your repeated orders consecutive every 13 months; which makes our jobs even easier because we don’t even have to ask if you want them renewed as we 
                   </p>
 
                   
@@ -217,7 +217,7 @@ Whether you’re looking for a forklift driver, need to know the forklift price 
                     </button>
 
                     <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5 mb-5">
-                    At Qimam Affan, we are dedicated to providing top-notch forklift services tailored to your operational needs. Whether you need maintenance, rental services ,<span className="text-[#FD9F00] font-medium">forklift spare parts</span>,or expert operator support
+                    AtAdvanced Accurate Arabia Operation & Maintenance co, we are dedicated to providing top-notch forklift services tailored to your operational needs. Whether you need maintenance, rental services ,<span className="text-[#FD9F00] font-medium">forklift spare parts</span>,or expert operator support
                     <span className="text-[#FD9F00] font-medium"> Contact us</span>  now . Our team is here to ensure your business runs smoothly and efficiently.</p>
 
                    {/* <Portfolio/> */}

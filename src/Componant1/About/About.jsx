@@ -88,7 +88,7 @@ const About = () => {
             </div>
 
             {/* <p className="font-Poppins text-TextColor-0 font-light">
-            Welcome to Qimam Affan Forklifts—your trusted partner for all forklift solutions in Saudi Arabia. We specialize in forklift rental, forklift maintenance and repairs, and forklift battery repair. Our expert team ensures that your material handling equipment works efficiently, whether you need a battery-operated forklift or a traditional model.
+            Welcome toAdvanced Accurate Arabia Operation & Maintenance co Forklifts—your trusted partner for all forklift solutions in Saudi Arabia. We specialize in forklift rental, forklift maintenance and repairs, and forklift battery repair. Our expert team ensures that your material handling equipment works efficiently, whether you need a battery-operated forklift or a traditional model.
             </p> */}
             <div className="flex flex-col md:flex-row gap-8 justify-between mt-7">
               <div>

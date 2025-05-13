@@ -34,7 +34,7 @@ const Appointment = () => {
             <h2 className="font-Inter font-bold text-3xl md:text-[20px] mb-1">
             Send Us Message
             </h2>
-            <p className="mb-3">At Qimam Affan Forklifts, we believe in fostering strong connections and clear communication with our clients. Whether you have a question, need a forklift rental, or require expert advice on forklift maintenance, we are here to assist you.
+            <p className="mb-3">At Advanced Accurate Arabia Operation & Maintenance co, we believe in fostering strong connections and clear communication with our clients. Whether you have a question, need a forklift rental, or require expert advice on forklift maintenance, we are here to assist you.
 
 Fill out the form below or reach out to us directly, and one of our team members will get back to you promptly. We look forward to hearing from you and helping you with your material handling needs.</p>
             <form action="#" method="post" className="flex flex-col gap-7">

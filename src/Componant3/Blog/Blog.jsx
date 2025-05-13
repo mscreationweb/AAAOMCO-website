@@ -53,7 +53,7 @@ const Blog = () => {
           What We Do
           </h1>
           <p className="font-Poppins text-[#313131] font-light">
-          We are Qimam Affan Forklifts, your trusted provider of forklift solutions in Saudi Arabia. Specializing in forklift repair & maintenance, supplying spare parts, and offering service contracts, we ensure your material handling equipment operates at peak performance. Our team is dedicated to providing reliable services that keep your forklifts running smoothly, minimizing downtime and maximizing productivity for your business.
+          We areAdvanced Accurate Arabia Operation & Maintenance co Forklifts, your trusted provider of forklift solutions in Saudi Arabia. Specializing in forklift repair & maintenance, supplying spare parts, and offering service contracts, we ensure your material handling equipment operates at peak performance. Our team is dedicated to providing reliable services that keep your forklifts running smoothly, minimizing downtime and maximizing productivity for your business.
           </p>
         </div>
         <div className="mt-[60px]">

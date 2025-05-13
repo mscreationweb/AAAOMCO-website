@@ -34,7 +34,7 @@ const blogData = [
     blogUrl: "/blog_details",
     blogTitle: "Transparency & Trust",
     blogDesc:
-      "Honesty and openness form the foundation of our interactions. At Qimam Affan Forklifts, we believe in building trust by being transparent with our clients, partners, and team, ensuring clarity and integrity in all aspects of forklift operations and services.",
+      "Honesty and openness form the foundation of our interactions. AtAdvanced Accurate Arabia Operation & Maintenance co Forklifts, we believe in building trust by being transparent with our clients, partners, and team, ensuring clarity and integrity in all aspects of forklift operations and services.",
     btnContent: "Read More",
     btnIcon: <FaArrowRightLong />,
   },
@@ -70,7 +70,7 @@ const blogData = [
     blogUrl: "/blog_details",
     blogTitle: "Continuous Improvement",
     blogDesc:
-      "At Qimam Affan Forklifts, we believe in the power of continuous improvement. Through innovation and development, we aim to enhance our processes, skills, and services, ensuring that we remain at the forefront of the forklift industry and consistently meet the evolving needs of our clients.",
+      "AtAdvanced Accurate Arabia Operation & Maintenance co Forklifts, we believe in the power of continuous improvement. Through innovation and development, we aim to enhance our processes, skills, and services, ensuring that we remain at the forefront of the forklift industry and consistently meet the evolving needs of our clients.",
     btnContent: "Read More",
     btnIcon: <FaArrowRightLong />,
   },
@@ -104,7 +104,7 @@ const BlogGrid = () => {
 What We Do
                     </button>
 <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5">
-At <span className="text-[#FD9F00] font-medium">Qimam Affan Forklifts </span>,  we provide a variety of services designed to keep your equipment in top shape. Here’s a breakdown of what we offer:
+At <span className="text-[#FD9F00] font-medium">Advanced Accurate Arabia Operation & Maintenance co Forklifts </span>,  we provide a variety of services designed to keep your equipment in top shape. Here’s a breakdown of what we offer:
                   </p>
 
 
@@ -166,7 +166,7 @@ At <span className="text-[#FD9F00] font-medium">Qimam Affan Forklifts </span>,  
                   <h4 className="text-[#02416A] font-bold mt-4">Forklift Inspection Checklist</h4>
                   <p className="font-Poppins font-light text-black pt-5 mb-6">
                   Regular forklift inspections are essential to ensure safety and avoid costly repairs. Our <span className="text-[#FD9F00] font-medium"> forklift inspection checklist</span> covers everything from the battery to the tires, hydraulics, and other important components. We help you catch potential issues early, keeping your forklift in excellent condition and compliant with safety standards. Whether you need 
-                  <span className="text-[#FD9F00] font-medium"> forklift rental  </span> in <span className="text-[#FD9F00] font-medium"> Saudi Arabia  </span>,  <span className="text-[#FD9F00] font-medium">battery-operated forklift  </span> ,or expert   <span className="text-[#FD9F00] font-medium"> forklift repairs, Qimam Affan Forklifts  </span>is here to help. We offer reliable services to ensure that your operations run smoothly, whether you’re renting or maintaining your equipment. Let us help you keep your material handling equipment in great shape.
+                  <span className="text-[#FD9F00] font-medium"> forklift rental  </span> in <span className="text-[#FD9F00] font-medium"> Saudi Arabia  </span>,  <span className="text-[#FD9F00] font-medium">battery-operated forklift  </span> ,or expert   <span className="text-[#FD9F00] font-medium"> forklift repairs,Advanced Accurate Arabia Operation & Maintenance co Forklifts  </span>is here to help. We offer reliable services to ensure that your operations run smoothly, whether you’re renting or maintaining your equipment. Let us help you keep your material handling equipment in great shape.
 
                   </p>
   </div>
@@ -185,7 +185,7 @@ At <span className="text-[#FD9F00] font-medium">Qimam Affan Forklifts </span>,  
   
 </div>
 <p className="font-Poppins font-light text-[#7f7f7f]  pt-5 text-center">
-At Qimam Affan Forklifts, our mission is driven by a commitment to excellence in service, integrity, and partnership. These core values shape every decision we make, ensuring that we deliver the highest standards of service, offering forklift rental, repair & maintenance, and material handling equipment solutions that add real value to our clients. By embracing transparency, reliability, and a focus on continuous improvement, we aim to build long-lasting relationships, empowering our clients to achieve their goals with trust and confidence. These values are the foundation of who we are and guide our dedication to excellence in everything we do.
+AtAdvanced Accurate Arabia Operation & Maintenance co Forklifts, our mission is driven by a commitment to excellence in service, integrity, and partnership. These core values shape every decision we make, ensuring that we deliver the highest standards of service, offering forklift rental, repair & maintenance, and material handling equipment solutions that add real value to our clients. By embracing transparency, reliability, and a focus on continuous improvement, we aim to build long-lasting relationships, empowering our clients to achieve their goals with trust and confidence. These values are the foundation of who we are and guide our dedication to excellence in everything we do.
                   </p>
             </div>
             {/* <div className="flex lg:justify-end">

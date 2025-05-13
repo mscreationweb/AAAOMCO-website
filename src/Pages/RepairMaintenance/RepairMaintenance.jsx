@@ -62,7 +62,7 @@ const RepairMaintenance = () => {
                     </h6>
                   </div> */}
                   <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5">
-                  We at <span className="text-[#FD9F00] font-medium">Qimam Affan </span> see the importance of a forklift in your company’s activities. For instance, if you are using a Branded Forklifts such as Toyota Forklift, Caterpillar Forklift or Electric Forklift, Branded Forklift or even any of the popular models, timely repair and maintenance is important to keep the business operational.
+                  We at <span className="text-[#FD9F00] font-medium">Advanced Accurate Arabia Operation & Maintenance co </span> see the importance of a forklift in your company’s activities. For instance, if you are using a Branded Forklifts such as Toyota Forklift, Caterpillar Forklift or Electric Forklift, Branded Forklift or even any of the popular models, timely repair and maintenance is important to keep the business operational.
                   </p>
                   <p className="font-Poppins font-light text-black mt-5">
                   For peak performance of your forklift, you need our maintenance and repair services to avoid costly repairs and unexpected breakdowns. Our tailored shred quality services fully meets clients’ repair and service needs across a range of popular forklift brands including electric, cat, Toyota and many other branded models
@@ -287,7 +287,7 @@ const RepairMaintenance = () => {
     Professionally qualified and experienced technician
   </li>
   <span className="font-normal ">
-  All Qimam Affan staff are maintenance specialists trained to carry out repairs, regardless of the type of forklift, be it a Toyota, electric or any other make, model or brand of forklift. Rest assured that your equipment will receive the utmost care and attention. Your technicians will not only identify but will also accurately and promptly resolve any problem so that they can get your equipment back to work without unnecessary delays. Extend the life of your forklift through comprehensive and dependable quality repairs.
+  AllAdvanced Accurate Arabia Operation & Maintenance co staff are maintenance specialists trained to carry out repairs, regardless of the type of forklift, be it a Toyota, electric or any other make, model or brand of forklift. Rest assured that your equipment will receive the utmost care and attention. Your technicians will not only identify but will also accurately and promptly resolve any problem so that they can get your equipment back to work without unnecessary delays. Extend the life of your forklift through comprehensive and dependable quality repairs.
   </span>
 </div>
 
@@ -299,7 +299,7 @@ const RepairMaintenance = () => {
     Affordable and Clear Pricing
   </li>
   <span className="font-normal ">
-  We know how challenging it can be to keep your business up and running without going over budget. That’s why, here at Qimam Affan, we offer complete forklift repair and maintenance  services at low prices and no hidden charges. With us, there is no ambiguity about the estimate– we give you definite numbers. Whether simple or more complex, we will address all of your repair needs and provide you with a transparent and clear estimate. Additionally, if you’re curious about forklift prices in KSA, we can help you find options that meet your financial and business expectations.
+  We know how challenging it can be to keep your business up and running without going over budget. That’s why, here atAdvanced Accurate Arabia Operation & Maintenance co, we offer complete forklift repair and maintenance  services at low prices and no hidden charges. With us, there is no ambiguity about the estimate– we give you definite numbers. Whether simple or more complex, we will address all of your repair needs and provide you with a transparent and clear estimate. Additionally, if you’re curious about forklift prices in KSA, we can help you find options that meet your financial and business expectations.
   </span>
 </div>          
 
@@ -310,7 +310,7 @@ const RepairMaintenance = () => {
     We aim to provide the best turnaround time
   </li>
   <span className="font-normal ">
-  Regardless of the type of business you operate, downtime can drain your money and time. This is why we do everything in our power to guarantee a fast turnaround time at Qimam Affan. Our skilled technicians are trained to execute all repairs and maintenance tasks with the highest standards of quality and efficiency. Whether you require urgent repairs or routine maintenance, our goal is to reduce operational downtime by getting your equipment back in action as quickly as possible.
+  Regardless of the type of business you operate, downtime can drain your money and time. This is why we do everything in our power to guarantee a fast turnaround time atAdvanced Accurate Arabia Operation & Maintenance co. Our skilled technicians are trained to execute all repairs and maintenance tasks with the highest standards of quality and efficiency. Whether you require urgent repairs or routine maintenance, our goal is to reduce operational downtime by getting your equipment back in action as quickly as possible.
   </span>
 </div>      
 
@@ -322,7 +322,7 @@ const RepairMaintenance = () => {
     Customer Focused Service
   </li>
   <span className="font-normal ">
-  At A Qimam Affan, we are proud to state that we have a customer focused approach in every job we do. We recognize that every business is different and has particular set requirements, and that is why we take time to understand and give the relevant solutions. Our team is available around the clock to walk you through the steps, questions you may have, and ensure you get all the services that you need. We care about our clients and provide the best services and support at all times, which add more value to building strong relationships with clients.
+  At AAdvanced Accurate Arabia Operation & Maintenance co, we are proud to state that we have a customer focused approach in every job we do. We recognize that every business is different and has particular set requirements, and that is why we take time to understand and give the relevant solutions. Our team is available around the clock to walk you through the steps, questions you may have, and ensure you get all the services that you need. We care about our clients and provide the best services and support at all times, which add more value to building strong relationships with clients.
   </span>
 </div>      
 
@@ -343,19 +343,19 @@ const RepairMaintenance = () => {
 
 
                   <button className="font-Inter font-semibold text-left text-xl sm:text-2xl text-[#02416A] transition-all duration-500 hover:[#02416A] mt-14 mb-4">
-                  What are the Benefits of Qimam Affan?
+                  What are the Benefits ofAdvanced Accurate Arabia Operation & Maintenance co?
                     </button>
                   <p className="font-Poppins font-light ">
-                  By selecting Qimam Affan, you are not just another customer for us, but rather someone that we put our full efforts in making sure you achieve success in your business. We want to make sure you have success in business, and that’s why we put all the heavy lifting on our shoulders. We guarantee there won’t be any extra expenses when you use our maintenance and repair services because we charge reasonable prices and don’t hide any fees. Our highly trained operators are available to help you with anything from regular maintenance of your forklift to emergency repairs, and even guidance on how much a forklift costs in KSA. With us, your business can always be running at an optimal level because we provide
+                  By selectingAdvanced Accurate Arabia Operation & Maintenance co, you are not just another customer for us, but rather someone that we put our full efforts in making sure you achieve success in your business. We want to make sure you have success in business, and that’s why we put all the heavy lifting on our shoulders. We guarantee there won’t be any extra expenses when you use our maintenance and repair services because we charge reasonable prices and don’t hide any fees. Our highly trained operators are available to help you with anything from regular maintenance of your forklift to emergency repairs, and even guidance on how much a forklift costs in KSA. With us, your business can always be running at an optimal level because we provide
                   <span className="text-[#FD9F00] font-medium">  training </span>,maintenance services and ensure your forklifts are functional.
                   </p>
 
 
                   <button className="font-Inter font-semibold text-left text-xl sm:text-2xl text-[#02416A] transition-all duration-500 hover:[#02416A] mt-14 mb-4">
-                Branded Forklifts Need Care? Call Qimam Affan for Expert Repair Services!
+                Branded Forklifts Need Care? CallAdvanced Accurate Arabia Operation & Maintenance co for Expert Repair Services!
                     </button>
                   <p className="font-Poppins font-light mb-14">
-                  We’ve got you covered when it comes to forklift repairs or maintenance. Whether it’s a branded forklift from Toyota, Cat, Electric Forklifts or any other top of the line forks, Master Qimam Affan has the knowledge to ensure your machine is always operating optimally. 
+                  We’ve got you covered when it comes to forklift repairs or maintenance. Whether it’s a branded forklift from Toyota, Cat, Electric Forklifts or any other top of the line forks, MasterAdvanced Accurate Arabia Operation & Maintenance co has the knowledge to ensure your machine is always operating optimally. 
                   <span className="text-[#FD9F00] font-medium">  Contact us  </span> for a free consultation. Let’s make sure your branded forklifts are working perfectly
                   </p>
   

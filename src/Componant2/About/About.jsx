@@ -25,7 +25,7 @@ const About = () => {
       </div>
       <div>
         <p className="font-Poppins text-TextColor-0 font-light">
-          Welcome to Qimam Affan Forklifts—your trusted partner for all forklift
+          Welcome toAdvanced Accurate Arabia Operation & Maintenance co Forklifts—your trusted partner for all forklift
           solutions in Saudi Arabia. We specialize in forklift rental, forklift
           maintenance and repairs, and forklift battery repair. Our expert team
           ensures that your material handling equipment works efficiently, whether
@@ -44,7 +44,7 @@ const About = () => {
           Our Vision
                     </button>
         <p className="font-Poppins text-TextColor-0 font-light">
-        We offer a wide range of services, including forklift operator training to ensure safety and productivity. Plus, we provide high-quality forklift parts and a thorough forklift inspection checklist to keep everything in check. At Qimam Affan Forklifts, we're here to make sure your forklifts are always ready to handle your business needs.
+        We offer a wide range of services, including forklift operator training to ensure safety and productivity. Plus, we provide high-quality forklift parts and a thorough forklift inspection checklist to keep everything in check. AtAdvanced Accurate Arabia Operation & Maintenance co Forklifts, we're here to make sure your forklifts are always ready to handle your business needs.
         </p>
       </div>
       <div className="relative z-10 h-full">

@@ -400,7 +400,7 @@ const Footer = () => {
       <div className="text-left sm:text-center py-4 border-t border-[#b1b8d6] bg-[#111111] mb-0">
       
           <p className="font-Poppins text-[#999999]   text-[14px] font-normal  text-center sm:text-left lg:text-center">
-          © Qimam Affan- All Rights Reserved.
+          ©Advanced Accurate Arabia Operation & Maintenance co- All Rights Reserved.
             {/* <span className="text-[#999999]"> Dream IT</span> */}
           </p>
         </div>
