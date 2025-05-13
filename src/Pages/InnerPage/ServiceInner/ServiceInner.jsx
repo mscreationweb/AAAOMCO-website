@@ -20,6 +20,7 @@ import Pricing from "../../../Componant1/Pricing/Pricing";
 import White from "../../../Shared/White/White";
 import About from "../../../Componant3/About/About";
 import ContactLocation from "../ContactInner/ContactLocation";
+import Testimonial from "../../../Componant1/Testimonial/Testimonial";
 
 const serviceData = [
   {
@@ -169,6 +170,8 @@ const ServiceInner = () => {
         </div>
       </section> */}
       <About/>
+      
+      <Testimonial/>
       <ContactLocation/>
       {/* <Support /> */}
       {/* <Pricing /> */}
