@@ -26,18 +26,18 @@ import {
 import { BiSolidQuoteAltRight, BiSolidShare } from "react-icons/bi";
 import Breadcamp from "../../Shared/Breadcamp/Breadcamp";
 
-const Trainings = () => {
+const Trainings  = () => {
   return (
     <>
       <Breadcamp
-        breadCampTitle={"Repair & Maintenance"}
+        breadCampTitle={"Trainings "}
         // url={"/blog"}
         // breadcampIcon={<FaArrowRightLong />}
         // breadcampIcon2={<FaArrowRightLong />}
         // breadCampLink={"Blog"}
         // breadCampContent={"Floor Cleaning Using New Equipment"}
       />
-      <section className="py-28 ">
+      <section className="py-28 -mb-40">
         <div className="Container lg:w-full w-auto ">
           <div className="grid grid-cols-1 lg:grid-cols-1 gap-12 ">
             <div className="col-span-2 ">
@@ -45,7 +45,7 @@ const Trainings = () => {
             
                 <div className="px-2 sm:px-8 ">
                     <button className="font-Inter font-bold text-left text-lg sm:text-2xl 2xl:text-3xl text-[#02416A] transition-all duration-500 hover:[#02416A] mt-9 mb-6">
-                    Most Reliable & Cost Friendly Forklift Repair and Maintenance Services 
+                  Best  Forklift Training Services in Saudi Arabia
                     </button>
                   {/* <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-7">
                     <h6 className="flex items-center gap-2 font-Poppins text-TextColor-0 font-light">
@@ -61,12 +61,14 @@ const Trainings = () => {
                       02 Comments
                     </h6>
                   </div> */}
-                  <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5">
-                  We at <span className="text-[#FD9F00] font-medium">Qimam Affan </span> see the importance of a forklift in your company’s activities. For instance, if you are using a Branded Forklifts such as Toyota Forklift, Caterpillar Forklift or Electric Forklift, Branded Forklift or even any of the popular models, timely repair and maintenance is important to keep the business operational.
+                  <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5">At
+                  <span className="text-[#FD9F00] font-medium">Qimam Affan </span>,we provide outstanding forklift training aimed at individuals wanting to become skilled and certified forklift operators. Our training equips you to proficiently use different models of forklifts and get your forklift driving license in Saudi Arabia. This training is critical for those wishing to work as a forklift drivers, and it also offers career enhancement opportunities in diverse industries across the kingdom.
                   </p>
-                  <p className="font-Poppins font-light text-black mt-5">
+                  <p className="font-Poppins font-light text-black  pt-5">With no prior knowledge or experience, our training prepares you to effectively operate a forklift. The demand for skilled forklift operators has been rising in Saudi Arabia and we are willing to offer you the best training available.
+                  </p>
+                  {/* <p className="font-Poppins font-light text-black mt-5">
                   For peak performance of your forklift, you need our maintenance and repair services to avoid costly repairs and unexpected breakdowns. Our tailored shred quality services fully meets clients’ repair and service needs across a range of popular forklift brands including electric, cat, Toyota and many other branded models
-                  </p>
+                  </p> */}
                   {/* <div className="flex flex-col bg-[#f3f4f8] sm:flex-row gap-7 px-4 sm:px-11 py-4 sm:py-10 rounded-md mt-12">
                     <div className="text-6xl text-SecondaryColor-0">
                       <BiSolidQuoteAltRight />
@@ -83,34 +85,42 @@ const Trainings = () => {
                     </div>
                   </div> */}
                     <button className="font-Inter font-semibold text-left text-xl sm:text-2xl text-[#02416A] transition-all duration-500 hover:[#02416A] mt-14 mb-4">
-                    Why Forklift Services and Repairs Matter
+                    Why Forklift Operators Are in Demand in Saudi Arabia
                     </button>
                   <p className="font-Poppins font-light ">
-                  Forklifts are made of sturdy machinery that is designed to take on large loads and withstand rough settings, but like any other industrial tool, they require regular forklift repair and maintenance to function at their best capacity. If you do not care for machinery and
-                  <span className="text-[#FD9F00] font-medium">  supplying spare parts </span>,even the best forklift could run into performance problems, breakdowns, or safety issues. To deal with such problems, regular forklift repair and maintenance practices are necessary along with timely parts replacement, so the machinery is reliable whenever you need it.
-                  </p><br/>
-                  <p className="font-Poppins font-light ">
-                  Scheduled servicing and maintenance of a forklift aids in the early diagnosis of potential problems like low oil levels and excessive wear on components and brakes that could lead to costly repairs. Routine servicing of your Toyota forklift, Cat forklift, or electric forklift improves operational efficiency, working more smoothly and wasting less time. A regular servicing schedule along with expert
-                  <span className="text-[#FD9F00] font-medium">   Consultancy  </span>also increases the longevity of your machines, ensuring that the funds allocated for servicing are justified on a long term basis.
-                  </p>
-
+               The forklift operator profession is highly in demand especially in the logistics, warehousing, and construction industries due to the rapid economic expansion of Saudi Arabia. As businesses grow, there will always be a need for qualified workforce who can operate forklifts in a safe and productive manner. Being certified as a forklift driver increases your chances of getting a job and makes you more marketable to employers. Our 
+                  <span className="text-[#FD9F00] font-medium"> consultancy </span>services can help guide you in the right direction for training and career opportunities.
+                 </p>
+            {/* <div> <FaSquare size={10} className="text-[#313131]" />
+            </div>
 
                   <button className="font-Inter font-semibold text-left text-xl sm:text-2xl text-[#313131] transition-all duration-500 hover:[#02416A] mt-14 mb-4">
                   How We Can Help You:
-                    </button>
-                    <p className="font-Poppins font-light ">These services are aimed at repair and maintenance of forklifts with the goal of preventing unwanted expenses as well as ensuring that the forklifts are ready when needed.</p>
+                    </button> */}
+                    {/* <p className="font-Poppins font-light ">These services are aimed at repair and maintenance of forklifts with the goal of preventing unwanted expenses as well as ensuring that the forklifts are ready when needed.</p> */}
 
-                  <ul className="flex flex-col gap-[14px] mt-7">
-                  <div className="flex flex-col lg:flex-row    items-start gap-2">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-    <FaSquare size={10} className="text-[#313131]" />
-   Forklift Repairs
-  </li>
-  <span className="font-normal">
-   : Scheduled maintenance will help your forklifts stay functional, and save you from larger problems later.
-  </span>
+                  <ul className="flex flex-col gap-[14px] mt-7 ">
+                  <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={20} className="mt-1 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    <span className="font-bold">Forklift Operator Jobs in Saudi Arabia: </span> 
+    he good news for aspiring qualified forklift operators is that there is an abundance of these jobs across Saudi Arabia. Trained forklift drivers are needed in big warehouses as well as on construction sites. With the completion of our training program, you will be able to take advantage of these positions and kickstart your career as a qualified forklift operator
+  </p>
 </div>
-                  <div className="flex flex-col lg:flex-row items-start gap-2">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+                  {/* <div className="flex flex-col lg:flex-row items-start gap-2">
   <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
     <FaSquare size={10} className="text-[#313131]" />
     Forklift Repairs
@@ -118,41 +128,10 @@ const Trainings = () => {
   <span className="font-normal">
    : From small to big troubleshooting issues, we can take care of it all.
   </span>
-</div>
+</div> */}
 
 
 
-<div className="flex flex-col lg:flex-row items-start gap-2">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-    <FaSquare size={10} className="text-[#313131]" />
-    Electric Forklift Repair
-  </li>
-  <span className="font-normal">
-   : We make sure your electric machines are working correctly and safely on all electric forklift repairs.
-  </span>
-</div>
-
-<div className="flex flex-col lg:flex-row items-start gap-2">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-    <FaSquare size={10} className="text-[#313131]" />
-    Toyota Forklift Services
-  </li>
-  <span className="font-normal">
-   : We do any and all repair and maintenance works for specialists in Toyota Forklifts.
-  </span>
-</div>
-
-
-
-<div className="flex flex-col lg:flex-row lg:items-start gap-2 text-[#313131]">
-  <li className="flex-shrink-0 flex gap-2 items-center font-Poppins font-bold lg:text-[15px] list-none">
-    <FaSquare size={10} className="text-[#313131]" />
-    Forklift Price in KSA
-  </li>
-  <span className="font-Poppins font-normal text-sm lg:text-[15px] leading-relaxed">
-    : In case your company wants to get a new forklift, we can assist in understanding the forklift price in KSA, and help you save money that’s beneficial for your company.
-  </span>
-</div>
 
                     {/* <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px]">
                       <FaSquare
@@ -174,94 +153,60 @@ const Trainings = () => {
                     </div>
                   </div> */}
                     <button className="font-Inter font-semibold text-left text-xl sm:text-2xl text-[#02416A]  mt-10 mb-4">
-                    Common Forklift Problems and Our Solutions
+                    Meet Our  Experts Trainers  Who Ensure Your Success
                     </button>
-                    <div className="flex flex-col lg:flex-row items-start gap-2">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-  Problem: Faulty Forklift Start-Up
-  </li>
- 
-  
-</div>
-  <p className=" font-Poppins font-bold text-[#313131] lg:text-[15px  ">
-    Solution  <span className="font-normal">: Most of the time this is battery dead, fuel gone or ignition trouble. We get to the core of the forklift on-site in no time, and fix the problem so you can operate the machine again.
-  </span>
+                    <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5 mb-3">
+                 These trainers are passionate educators, and certified
+                 <span className="text-[#02416A] font-medium"> forklift </span>professionals that ensure you enjoy the non-forking training experience. Having worked many years on forklifts, they know relevant practical information that can help you.
+                  </p>
+                    <p className="font-Poppins font-light text-black  pt-5 mb-3">
+               Our trainers prioritize the following aspects:
+                  </p>
+
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    <span className="font-bold">Safety Comes First: </span> 
+Our trainers explain safety as an integral component that has to be fused with every aspect of the forklift operation. As a result, you will learn how to operate the forklifts in a manner that abides by all safety requirements and minimizes hazards.
   </p>
-
-
-
-
-
-  <div className="flex flex-col lg:flex-row items-start gap-2 mt-6">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-  Problem: Failure of Hydraulic System
-  </li>
- 
-  
 </div>
-  <p className=" font-Poppins font-bold text-[#313131] lg:text-[15px] ">
-    Solution  <span className="font-normal">:  When your forklift isn’t lifting, we look for leaks that are bursting out the air out of the system or faults in the pump. We fix them.
-  </span>
-  </p>
 
-
-
-
-  
-  <div className="flex flex-col lg:flex-row items-start gap-2 mt-6">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-  Problem: Forklift Running Hot
-  </li>
- 
-  
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    <span className="font-bold">Practical Instruction: </span> 
+ Learning through practice is the most effective approach. Our trainers will walk you through practical sessions that will allow you to operate the forklift and build the competence needed to succeed.</p>
 </div>
-  <p className=" font-Poppins font-bold text-[#313131] lg:text-[15px] ">
-    Solution  <span className="font-normal">:   A forklift can run hot because of many reasons, such as the radiator being clogged, the coolant leaking, or problems with the engine itself. That’s why we clean the cooling system so it can work flexibly.
-  </span>
-  </p>
 
 
 
-  <div className="flex flex-col lg:flex-row items-start gap-2 mt-6">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-  Problem: Brake Issues
-  </li>
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+
+  
+
+
  
-  
-</div>
-  <p className=" font-Poppins font-bold text-[#313131] lg:text-[15px] ">
-    Solution  <span className="font-normal">: We take brake problems seriously because they can impair movement. To tackle these problems, we replace any missing brake pads, realign brake lines, and check if all the components of the braking system are functioning properly.
-  </span>
-  </p>
 
 
 
   
-  <div className="flex flex-col lg:flex-row items-start gap-2 mt-6">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-  Problem: Steering Difficulty
-  </li>
- 
   
-</div>
-  <p className=" font-Poppins font-bold text-[#313131] lg:text-[15px] ">
-    Solution  <span className="font-normal">: Difficulty steering a forklift can arise from low levels hydraulic fluid, a broken steering column, or worn out tires. We determine the cause of the steering problem and provide an effective solution to enhance maneuverability.
-  </span>
-  </p>
 
 
 
-  <div className="flex flex-col lg:flex-row items-start gap-2 mt-6">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-  Problem:  Warning Signals on the Dashboard
-  </li>
- 
-  
-</div>
-  <p className=" font-Poppins font-bold text-[#313131] lg:text-[15px] ">
-    Solution  <span className="font-normal">: Warning signals on the dashboard suggest that there may be problems with the engine, battery, or hydraulic system. We make it a point to check the entire system and fix any issues that are found to ensure that they do not worsen over time.
-  </span>
-  </p>
+
 
 
 
@@ -277,88 +222,108 @@ const Trainings = () => {
 
 
   <button className="font-Inter font-semibold text-left text-xl sm:text-2xl text-[#02416A] transition-all duration-500 hover:[#02416A] mt-14 mb-4">
-  Why Choose Our Forklift Repair and Maintenance Services?
+Why Choose Us for Forklift Training?
                     </button>
+                    <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5">
+                   Here are some of the main reasons why both individuals and organizations prefer us as their forklift training providers in Saudi Arabia along with some few benefits offered to students enrolled in our courses. One benefit is that our company offers 
+                  <span className="text-[#FD9F00] font-medium">  repair and maintenance services </span>, so if any issues arise with your forklift, you can easily get them resolved.
+                  </p>
 
-                  <ul className="flex flex-col gap-[14px] mt-7  lg:ml-5">
-                  <div className="   items-start gap-2">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-    <FaSquare size={10} className="text-[#313131]" />
-    Professionally qualified and experienced technician
-  </li>
-  <span className="font-normal ">
-  All Qimam Affan staff are maintenance specialists trained to carry out repairs, regardless of the type of forklift, be it a Toyota, electric or any other make, model or brand of forklift. Rest assured that your equipment will receive the utmost care and attention. Your technicians will not only identify but will also accurately and promptly resolve any problem so that they can get your equipment back to work without unnecessary delays. Extend the life of your forklift through comprehensive and dependable quality repairs.
-  </span>
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={15} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    <span className="font-bold">Certified and Experienced Trainers: </span> 
+All our trainers are certified and have worked extensively with operational forklifts. They shall take you through the training from the beginning to the end and ensure that you are equipped with the necessary skills and safety measures to pass the certification exam and become a successful forklift operator.
+  </p>
+</div>   
+
+
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={15} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    <span className="font-bold">Rounded Forklift Training Program: </span> 
+We have almost all types of forklift training programs available that are both practical and classroom based. From entry level to expert skill sets, we ensure that our trainees develop the required self-assurance and efficiency in performing their duties.
+  </p>
 </div>
 
 
 
-       <div className="   items-start gap-2">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-    <FaSquare size={10} className="text-[#313131]" />
-    Affordable and Clear Pricing
-  </li>
-  <span className="font-normal ">
-  We know how challenging it can be to keep your business up and running without going over budget. That’s why, here at Qimam Affan, we offer complete forklift repair and maintenance  services at low prices and no hidden charges. With us, there is no ambiguity about the estimate– we give you definite numbers. Whether simple or more complex, we will address all of your repair needs and provide you with a transparent and clear estimate. Additionally, if you’re curious about forklift prices in KSA, we can help you find options that meet your financial and business expectations.
-  </span>
-</div>          
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={15} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    <span className="font-bold">Secure Your Forklift Driving License: </span> 
+Attending our forklift training program qualifies you to apply for a forklift driving license in Saudi Arabia. This license is accepted by employers nationwide, increasing your potential job openings as a forklift driver.
+  </p>
+</div>
 
 
-<div className="   items-start gap-2">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-    <FaSquare size={10} className="text-[#313131]" />
-    We aim to provide the best turnaround time
-  </li>
-  <span className="font-normal ">
-  Regardless of the type of business you operate, downtime can drain your money and time. This is why we do everything in our power to guarantee a fast turnaround time at Qimam Affan. Our skilled technicians are trained to execute all repairs and maintenance tasks with the highest standards of quality and efficiency. Whether you require urgent repairs or routine maintenance, our goal is to reduce operational downtime by getting your equipment back in action as quickly as possible.
-  </span>
-</div>      
-
-
-
-<div className="   items-start gap-2">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-    <FaSquare size={10} className="text-[#313131]" />
-    Customer Focused Service
-  </li>
-  <span className="font-normal ">
-  At A Qimam Affan, we are proud to state that we have a customer focused approach in every job we do. We recognize that every business is different and has particular set requirements, and that is why we take time to understand and give the relevant solutions. Our team is available around the clock to walk you through the steps, questions you may have, and ensure you get all the services that you need. We care about our clients and provide the best services and support at all times, which add more value to building strong relationships with clients.
-  </span>
-</div>      
-
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={20} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    <span className="font-bold">Forklift Price in KSA:  </span> 
+Our courses are offered at affordable rates which cater to both individuals and organizations that seek to advance training and development programs. Moreover, we provide assistance regarding the potential purchase price of the forklift price in KSA, enabling you to make the right choices concerning the equipment.
+  </p>
+</div>
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={20} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    <span className="font-bold">Job Opportunities for Forklift Operators: </span> 
+Through this program, you will not only earn a certificate, but also access Job openings as a Forklift operator in Saudi Arabia. Your new skills will allow you to work in warehouses, construction sites, and manufacturing plants which are always seeking skilled workers.
+  </p>
+</div>
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    <span className="font-bold">Continuing Education and Refresher Courses: </span> 
+Providing additional support training and safety refresher courses for those who need help staying current with employers’ best practices.
+  </p>
+</div>
 
 
 
 
 
-                    {/* <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px]">
-                      <FaSquare
-                        size={"10"}
-                        className="text-[#313131]"
-                      />
-                       Forklift Price in KSA<span className="font-normal">:In case your company wants to get a new forklift, we can assist in understanding the forklift price in KSA, and help you save money that’s beneficial for your company.</span>
-                    </li> */}
-                  </ul>
+
+
+
+ 
+
+
+
+                 
   
 
 
-                  <button className="font-Inter font-semibold text-left text-xl sm:text-2xl text-[#02416A] transition-all duration-500 hover:[#02416A] mt-14 mb-4">
-                  What are the Benefits of Qimam Affan?
-                    </button>
-                  <p className="font-Poppins font-light ">
+                  
+                   
+
+
+ 
+
+
+
+  
+
+
+
+
+
+                  {/* <p className="font-Poppins font-light ">
                   By selecting Qimam Affan, you are not just another customer for us, but rather someone that we put our full efforts in making sure you achieve success in your business. We want to make sure you have success in business, and that’s why we put all the heavy lifting on our shoulders. We guarantee there won’t be any extra expenses when you use our maintenance and repair services because we charge reasonable prices and don’t hide any fees. Our highly trained operators are available to help you with anything from regular maintenance of your forklift to emergency repairs, and even guidance on how much a forklift costs in KSA. With us, your business can always be running at an optimal level because we provide
                   <span className="text-[#FD9F00] font-medium">  training </span>,maintenance services and ensure your forklifts are functional.
-                  </p>
+                  </p> */}
 
 
                   <button className="font-Inter font-semibold text-left text-xl sm:text-2xl text-[#02416A] transition-all duration-500 hover:[#02416A] mt-14 mb-4">
-                Branded Forklifts Need Care? Call Qimam Affan for Expert Repair Services!
+             Get Started with Forklift Training Today
                     </button>
                   <p className="font-Poppins font-light mb-14">
-                  We’ve got you covered when it comes to forklift repairs or maintenance. Whether it’s a branded forklift from Toyota, Cat, Electric Forklifts or any other top of the line forks, Master Qimam Affan has the knowledge to ensure your machine is always operating optimally. 
-                  <span className="text-[#FD9F00] font-medium">  Contact us  </span> for a free consultation. Let’s make sure your branded forklifts are working perfectly
+                Are you prepared to advance your career? Sign up for our forklift training program and get your forklift driving license in Saudi Arabia.  With the right training, you’ll be prepared to take on a variety of forklift operator jobs in Saudi Arabia and become a highly sought-after professional in the workforce. <br/>
+                  <span className="text-[#FD9F00] font-medium"> Contact us  </span> today for more information on training options as well as registration details. Become skilled, and step into the rewarding world of a forklift driver with our help!
                   </p>
-  
+
+
+                 
                  
                 </div>
                 {/* <div className="flex flex-col sm:flex-row gap-5 items-start sm:justify-between border-t border-BorderColor1-0 mt-9 py-5 px-4 sm:px-8">
@@ -687,4 +652,4 @@ const Trainings = () => {
   );
 };
 
-export default Trainings;
+export default Trainings ;

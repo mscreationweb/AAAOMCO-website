@@ -48,14 +48,16 @@ const About = () => {
   <FaArrowRightLong className="bg-white rounded-full text-[#02416A] text-[15px]" />
   
 </h2>
-<h4 className="lg:font-[700] lg:text-[18px]">Repair & Maintenance</h4>
+<Link to='repair-maintenance'>
+<h4 className="lg:font-[700] lg:text-[18px]">Repair & Maintenance</h4></Link>
             </div>
             <div className="flex gap-4 mt-5" >
             <h2 className="bg-[#02416A] w-7 h-7 rounded-full flex items-center justify-center p-1">
   <FaArrowRightLong className="bg-white rounded-full text-[#02416A] text-[15px]" />
   
 </h2>
-<h4 className="lg:font-[700] lg:text-[18px]">Service Contracts</h4>
+<Link to='service-contracts'>
+<h4 className="lg:font-[700] lg:text-[18px]">Service Contracts</h4></Link>
             </div>
             
 
@@ -65,21 +67,24 @@ const About = () => {
   <FaArrowRightLong className="bg-white rounded-full text-[#02416A] text-[15px]" />
   
 </h2>
-<h4 className="lg:font-[700] lg:text-[18px]">Supplying Spare Parts</h4>
+<Link to='supplying-spare-parts'>
+<h4 className="lg:font-[700] lg:text-[18px]">Supplying Spare Parts</h4></Link>
             </div>
             <div className="flex gap-4 mt-5" >
             <h2 className="bg-[#02416A] w-7 h-7 rounded-full flex items-center justify-center p-1">
   <FaArrowRightLong className="bg-white rounded-full text-[#02416A] text-[15px]" />
   
 </h2>
-<h4 className="lg:font-[700] lg:text-[18px]">Consultancy </h4>
+<Link to='consultancy'>
+<h4 className="lg:font-[700] lg:text-[18px]">Consultancy </h4></Link>
             </div>
             <div className="flex gap-4 mt-5" >
             <h2 className="bg-[#02416A] w-7 h-7 rounded-full flex items-center justify-center p-1">
   <FaArrowRightLong className="bg-white rounded-full text-[#02416A] text-[15px]" />
   
 </h2>
-<h4 className="lg:font-[700] lg:text-[18px]">Trainings </h4>
+<Link to='trainings'>
+<h4 className="lg:font-[700] lg:text-[18px]">Trainings </h4></Link>
             </div>
 
             {/* <p className="font-Poppins text-TextColor-0 font-light">

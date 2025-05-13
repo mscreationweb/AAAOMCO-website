@@ -8,7 +8,7 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 import { BiChevronDown } from "react-icons/bi";
-import Logo from "/images/logo.png";
+import Logo from "/images/allimg/LOGO-color.png";
 import { useState, useEffect } from "react";
 import { IoMdCall, IoMdClose } from "react-icons/io";
 import { VscHeart } from "react-icons/vsc";
@@ -123,18 +123,20 @@ const Navbar = () => {
           {/* main Navbar */}
           <div className="flex flex-col lg:flex-row items-center justify-between lg:h-[100px]">
             {/* website Logo */}
-            <div className=" w-48 lg:w-52">
-              <Link to="/">
-                <img
-                  src={Logo}
-                  className="hidden lg:block w-full"
-                  alt="website_logo"
-                />
-              </Link>
-            </div>
+            <div className="w-20 sm:w-24 md:w-32 lg:w-24">
+  <Link to="/">
+    <img
+      src={Logo}
+      className="block w-full h-auto"
+      alt="website_logo"
+    />
+  </Link>
+</div>
+
+
             {/* small screen size */}
-            <div className="px-3 w-full lg:hidden flex justify-between bg-khaki h-[70px] items-center p-3">
-              <div className="w-28">
+            <div className="px-3 w-full lg:hidden flex justify-between bg-khaki h-[30px] items-center p-3">
+              {/* <div className="w-28">
                 <Link to="/">
                   <img
                     src={Logo}
@@ -142,26 +144,26 @@ const Navbar = () => {
                     alt="constre_website_logo"
                   />
                 </Link>
-              </div>
+              </div> */}
               {/* toggle bar mode. */}
               <button
-                className="lg:hidden block focus:outline-none "
+                className="lg:hidden block focus:outline-none  -mt-28"
                 onClick={toggleNavbar}
               >
                 {/* modal open and close */}
                 {isOpen ? (
-                  <IoMdClose className="w-6 h-6 text-HeadingColor-0" />
+                  <IoMdClose className="w-6 h-6 text-[#02416A]" />
                 ) : (
-                  <FaBars className="w-5 h-5 text-HeadingColor-0" />
+                  <FaBars className="w-5 h-5 text-[#02416A]" />
                 )}
               </button>
             </div>
             {/* All navLink are hear with active */}
-            <div className="flex gap-6 items-center">
+            <div className="flex gap-10 items-center">
               <ul
                 className={`${
                   isOpen ? "block" : "hidden"
-                } text-right lg:w-fit ease-in-out flex-1 lg:flex space-y-2 lg:space-y-0 space-x-0  flex flex-col lg:flex-row capitalize text-base lg:bg-transparent py-3 lg:py-0 font-Poppins font-medium text-white transition-all duration-500
+                } whitespace-nowrap lg:gap-7 text-right lg:w-fit ease-in-out flex-1 lg:flex space-y-2 lg:space-y-0 space-x-0  flex flex-col lg:flex-row capitalize text-base lg:bg-transparent py-3 lg:py-0 font-Poppins font-medium text-white transition-all duration-500
                 `}
               >
                 {/* <NavLink
@@ -225,7 +227,7 @@ const Navbar = () => {
                       ? "pending"
                       : isActive
                       ? "active"
-                      : ""} text-HeadingColor-0 text-left hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
+                      : ""} text-[#02416A] text-left hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
                   to="#"
                 >
                   <span className="flex items-center">
@@ -233,36 +235,36 @@ const Navbar = () => {
                     <BiChevronDown className="ml-1" />
                   </span>
                   <div className="absolute pt-5 lg:pt-8 z-20">
-                    <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[220px] text-left transition-all duration-500 text-sm py-4 bg-HeadingColor-0 ">
-                      <div className=" px-5 group hover:bg-SecondaryColor-0 ">
+                    <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[220px] text-left transition-all duration-500 text-sm py-4 bg-[#02416A]">
+                      <div className=" px-5 group hover:bg-[#FD9F00]">
                         <li className="hover:ml-3 duration-300">
                           <Link to="/repair-maintenance" className="py-2 block">
                           Repair & Maintenance
                           </Link>
                         </li>
                       </div>
-                      <div className=" px-5 group hover:bg-SecondaryColor-0 ">
+                      <div className=" px-5 group hover:bg-[#FD9F00] ">
                         <li className="hover:ml-3 duration-300">
                           <Link to="/service-contracts" className="py-2 block">
                           Service Contracts
                           </Link>
                         </li>
                       </div>
-                      <div className=" px-5 group hover:bg-SecondaryColor-0 ">
+                      <div className=" px-5 group hover:bg-[#FD9F00] ">
                         <li className="hover:ml-3 duration-300">
                           <Link to="/supplying-spare-parts" className="py-2 block">
                           Supplying Spare Parts
                           </Link>
                         </li>
                       </div>
-                      <div className=" px-5 group hover:bg-SecondaryColor-0 ">
+                      <div className=" px-5 group hover:bg-[#FD9F00] ">
                         <li className="hover:ml-3 duration-300">
                           <Link to="/consultancy" className="py-2 block">
                           Consultancy
                           </Link>
                         </li>
                       </div>
-                      <div className=" px-5 group hover:bg-SecondaryColor-0 ">
+                      <div className=" px-5 group hover:bg-[#FD9F00]">
                         <li className="hover:ml-3 duration-300">
                           <Link to="/trainings" className="py-2 block">
                           Trainings
@@ -278,10 +280,10 @@ const Navbar = () => {
                       ? "pending"
                       : isActive
                       ? "active"
-                      : ""} text-HeadingColor-0 text-left hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
+                      : ""} text-[#02416A] text-left hover:text-[#FD9F00] lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
                   to="/about"
                 >
-                  <span>About Us</span>
+                  <span >About Us</span>
                 </NavLink>
                 {/* <NavLink
                   className={`${({ isActive, isPending }) =>
@@ -410,7 +412,7 @@ const Navbar = () => {
                       ? "pending"
                       : isActive
                       ? "active"
-                      : ""} text-HeadingColor-0 text-left lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300`}
+                      : ""} text-[#02416A] text-left lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300`}
                   to="/contact"
                 >
                   Contact Us

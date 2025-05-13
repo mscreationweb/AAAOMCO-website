@@ -30,14 +30,14 @@ const Consultancy  = () => {
   return (
     <>
       <Breadcamp
-        breadCampTitle={"consultancy"}
+        breadCampTitle={"Consultancy "}
         // url={"/blog"}
         // breadcampIcon={<FaArrowRightLong />}
         // breadcampIcon2={<FaArrowRightLong />}
         // breadCampLink={"Blog"}
         // breadCampContent={"Floor Cleaning Using New Equipment"}
       />
-      <section className="py-28 ">
+      <section className="py-28 -mb-40">
         <div className="Container lg:w-full w-auto ">
           <div className="grid grid-cols-1 lg:grid-cols-1 gap-12 ">
             <div className="col-span-2 ">
@@ -45,7 +45,7 @@ const Consultancy  = () => {
             
                 <div className="px-2 sm:px-8 ">
                     <button className="font-Inter font-bold text-left text-lg sm:text-2xl 2xl:text-3xl text-[#02416A] transition-all duration-500 hover:[#02416A] mt-9 mb-6">
-                    Most Reliable & Cost Friendly Forklift Repair and Maintenance Services 
+                  Expert Forklift Consultancy Services
                     </button>
                   {/* <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-7">
                     <h6 className="flex items-center gap-2 font-Poppins text-TextColor-0 font-light">
@@ -61,12 +61,12 @@ const Consultancy  = () => {
                       02 Comments
                     </h6>
                   </div> */}
-                  <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5">
-                  We at <span className="text-[#FD9F00] font-medium">Qimam Affan </span> see the importance of a forklift in your company’s activities. For instance, if you are using a Branded Forklifts such as Toyota Forklift, Caterpillar Forklift or Electric Forklift, Branded Forklift or even any of the popular models, timely repair and maintenance is important to keep the business operational.
+                  <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5">At
+                  <span className="text-[#FD9F00] font-medium">Qimam Affan </span> Forklifts, we provide top-ranked forklift management and maintenance. With us you can avoid the risk to your fleet’s quality, achieve greater for safety than ever before and make it easier on your loads too in all respects. No matter whether you’re eager for forklift safety precautions information, from how use a forklift right on through other types and what’s in their prices here (KSA), need a better forklift operator than any other that’s being considered this is the firm into which you will want to put your trust!
                   </p>
-                  <p className="font-Poppins font-light text-black mt-5">
+                  {/* <p className="font-Poppins font-light text-black mt-5">
                   For peak performance of your forklift, you need our maintenance and repair services to avoid costly repairs and unexpected breakdowns. Our tailored shred quality services fully meets clients’ repair and service needs across a range of popular forklift brands including electric, cat, Toyota and many other branded models
-                  </p>
+                  </p> */}
                   {/* <div className="flex flex-col bg-[#f3f4f8] sm:flex-row gap-7 px-4 sm:px-11 py-4 sm:py-10 rounded-md mt-12">
                     <div className="text-6xl text-SecondaryColor-0">
                       <BiSolidQuoteAltRight />
@@ -83,34 +83,73 @@ const Consultancy  = () => {
                     </div>
                   </div> */}
                     <button className="font-Inter font-semibold text-left text-xl sm:text-2xl text-[#02416A] transition-all duration-500 hover:[#02416A] mt-14 mb-4">
-                    Why Forklift Services and Repairs Matter
+                    Fleet Management Optimization
                     </button>
                   <p className="font-Poppins font-light ">
-                  Forklifts are made of sturdy machinery that is designed to take on large loads and withstand rough settings, but like any other industrial tool, they require regular forklift repair and maintenance to function at their best capacity. If you do not care for machinery and
-                  <span className="text-[#FD9F00] font-medium">  supplying spare parts </span>,even the best forklift could run into performance problems, breakdowns, or safety issues. To deal with such problems, regular forklift repair and maintenance practices are necessary along with timely parts replacement, so the machinery is reliable whenever you need it.
+                Operational efficiency is essential for maintaining a forklift fleet. At Qimam Affan we excel in optimizing forklift fleet operations by
                   </p><br/>
-                  <p className="font-Poppins font-light ">
-                  Scheduled servicing and maintenance of a forklift aids in the early diagnosis of potential problems like low oil levels and excessive wear on components and brakes that could lead to costly repairs. Routine servicing of your Toyota forklift, Cat forklift, or electric forklift improves operational efficiency, working more smoothly and wasting less time. A regular servicing schedule along with expert
-                  <span className="text-[#FD9F00] font-medium">   Consultancy  </span>also increases the longevity of your machines, ensuring that the funds allocated for servicing are justified on a long term basis.
-                  </p>
-
+            {/* <div> <FaSquare size={10} className="text-[#313131]" />
+            </div>
 
                   <button className="font-Inter font-semibold text-left text-xl sm:text-2xl text-[#313131] transition-all duration-500 hover:[#02416A] mt-14 mb-4">
                   How We Can Help You:
-                    </button>
-                    <p className="font-Poppins font-light ">These services are aimed at repair and maintenance of forklifts with the goal of preventing unwanted expenses as well as ensuring that the forklifts are ready when needed.</p>
+                    </button> */}
+                    {/* <p className="font-Poppins font-light ">These services are aimed at repair and maintenance of forklifts with the goal of preventing unwanted expenses as well as ensuring that the forklifts are ready when needed.</p> */}
 
-                  <ul className="flex flex-col gap-[14px] mt-7">
-                  <div className="flex flex-col lg:flex-row    items-start gap-2">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-    <FaSquare size={10} className="text-[#313131]" />
-   Forklift Repairs
-  </li>
-  <span className="font-normal">
-   : Scheduled maintenance will help your forklifts stay functional, and save you from larger problems later.
-  </span>
+                  <ul className="flex flex-col gap-[14px] mt-7 ">
+                  <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    {/* <span className="font-bold">Range of Forklift Parts:</span>  */}
+    Implementing preventive maintenance strategies to reduce downtime.
+  </p>
 </div>
-                  <div className="flex flex-col lg:flex-row items-start gap-2">
+                
+
+
+
+                 <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    {/* <span className="font-bold">Range of Forklift Parts:</span>  */}
+    Monitoring forklift performance for cost-effective usage.
+  </p>
+</div>           
+
+
+
+
+               <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    {/* <span className="font-bold">Range of Forklift Parts:</span>  */}
+    Providing expert analysis to enhance operational output.
+  </p>
+</div>                 
+
+
+
+
+
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    {/* <span className="font-bold">Range of Forklift Parts:</span>  */}
+   Ensuring smooth logistics and scheduling for minimal disruption.
+  </p>
+</div>
+ <p className="font-Poppins font-light ">
+               Our structured management approach improves the reliability and efficiency of fork lift operations, whether you operate a single unit or large fleet.
+                  </p>
+
+
+
+
+
+
+
+
+                  {/* <div className="flex flex-col lg:flex-row items-start gap-2">
   <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
     <FaSquare size={10} className="text-[#313131]" />
     Forklift Repairs
@@ -118,41 +157,10 @@ const Consultancy  = () => {
   <span className="font-normal">
    : From small to big troubleshooting issues, we can take care of it all.
   </span>
-</div>
+</div> */}
 
 
 
-<div className="flex flex-col lg:flex-row items-start gap-2">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-    <FaSquare size={10} className="text-[#313131]" />
-    Electric Forklift Repair
-  </li>
-  <span className="font-normal">
-   : We make sure your electric machines are working correctly and safely on all electric forklift repairs.
-  </span>
-</div>
-
-<div className="flex flex-col lg:flex-row items-start gap-2">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-    <FaSquare size={10} className="text-[#313131]" />
-    Toyota Forklift Services
-  </li>
-  <span className="font-normal">
-   : We do any and all repair and maintenance works for specialists in Toyota Forklifts.
-  </span>
-</div>
-
-
-
-<div className="flex flex-col lg:flex-row lg:items-start gap-2 text-[#313131]">
-  <li className="flex-shrink-0 flex gap-2 items-center font-Poppins font-bold lg:text-[15px] list-none">
-    <FaSquare size={10} className="text-[#313131]" />
-    Forklift Price in KSA
-  </li>
-  <span className="font-Poppins font-normal text-sm lg:text-[15px] leading-relaxed">
-    : In case your company wants to get a new forklift, we can assist in understanding the forklift price in KSA, and help you save money that’s beneficial for your company.
-  </span>
-</div>
 
                     {/* <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px]">
                       <FaSquare
@@ -174,94 +182,71 @@ const Consultancy  = () => {
                     </div>
                   </div> */}
                     <button className="font-Inter font-semibold text-left text-xl sm:text-2xl text-[#02416A]  mt-10 mb-4">
-                    Common Forklift Problems and Our Solutions
+                    Safety, Security, and Compliance
                     </button>
-                    <div className="flex flex-col lg:flex-row items-start gap-2">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-  Problem: Faulty Forklift Start-Up
-  </li>
- 
-  
-</div>
-  <p className=" font-Poppins font-bold text-[#313131] lg:text-[15px  ">
-    Solution  <span className="font-normal">: Most of the time this is battery dead, fuel gone or ignition trouble. We get to the core of the forklift on-site in no time, and fix the problem so you can operate the machine again.
-  </span>
+                    <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5 mb-3">
+                  Forklift safety is our top priority. A safe working environment is essential for operators and total working area efficiency. We help companies meet standards as well as laws. Through using our
+                 <span className="text-[#FD9F00] font-medium"> repair and maintenance service </span>businesses can relegitimate costs reduce risks! The measures our company offers:
+                  </p>
+
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    {/* <span className="font-bold">Range of Forklift Parts:</span>  */}
+Custom maintenance schedules based on usage patterns.
   </p>
-
-
-
-
-
-  <div className="flex flex-col lg:flex-row items-start gap-2 mt-6">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-  Problem: Failure of Hydraulic System
-  </li>
- 
-  
 </div>
-  <p className=" font-Poppins font-bold text-[#313131] lg:text-[15px] ">
-    Solution  <span className="font-normal">:  When your forklift isn’t lifting, we look for leaks that are bursting out the air out of the system or faults in the pump. We fix them.
-  </span>
-  </p>
 
-
-
-
-  
-  <div className="flex flex-col lg:flex-row items-start gap-2 mt-6">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-  Problem: Forklift Running Hot
-  </li>
- 
-  
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    {/* <span className="font-bold">Range of Forklift Parts:</span>  */}
+Special repair solutions for different  <span className="text-[#02416A] font-medium">forklift types  </span>(diesel, electric, LPG, etc.).</p>
 </div>
-  <p className=" font-Poppins font-bold text-[#313131] lg:text-[15px] ">
-    Solution  <span className="font-normal">:   A forklift can run hot because of many reasons, such as the radiator being clogged, the coolant leaking, or problems with the engine itself. That’s why we clean the cooling system so it can work flexibly.
-  </span>
+
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    {/* <span className="font-bold">Range of Forklift Parts:</span>  */}
+Strategic consultation for cost-saving fleet management.
   </p>
+</div> 
 
-
-
-  <div className="flex flex-col lg:flex-row items-start gap-2 mt-6">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-  Problem: Brake Issues
-  </li>
- 
-  
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    {/* <span className="font-bold">Range of Forklift Parts:</span>  */}
+24/7 emergency repair support to minimize downtime.
+  </p>
 </div>
-  <p className=" font-Poppins font-bold text-[#313131] lg:text-[15px] ">
-    Solution  <span className="font-normal">: We take brake problems seriously because they can impair movement. To tackle these problems, we replace any missing brake pads, realign brake lines, and check if all the components of the braking system are functioning properly.
-  </span>
-  </p>
+
+
+
+
+
+
+
+
+
+                   
+
+
 
 
 
   
-  <div className="flex flex-col lg:flex-row items-start gap-2 mt-6">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-  Problem: Steering Difficulty
-  </li>
+
+
  
+
+
+
   
-</div>
-  <p className=" font-Poppins font-bold text-[#313131] lg:text-[15px] ">
-    Solution  <span className="font-normal">: Difficulty steering a forklift can arise from low levels hydraulic fluid, a broken steering column, or worn out tires. We determine the cause of the steering problem and provide an effective solution to enhance maneuverability.
-  </span>
-  </p>
-
-
-
-  <div className="flex flex-col lg:flex-row items-start gap-2 mt-6">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-  Problem:  Warning Signals on the Dashboard
-  </li>
- 
   
-</div>
-  <p className=" font-Poppins font-bold text-[#313131] lg:text-[15px] ">
-    Solution  <span className="font-normal">: Warning signals on the dashboard suggest that there may be problems with the engine, battery, or hydraulic system. We make it a point to check the entire system and fix any issues that are found to ensure that they do not worsen over time.
-  </span>
-  </p>
+
+
+
+
 
 
 
@@ -277,88 +262,164 @@ const Consultancy  = () => {
 
 
   <button className="font-Inter font-semibold text-left text-xl sm:text-2xl text-[#02416A] transition-all duration-500 hover:[#02416A] mt-14 mb-4">
-  Why Choose Our Forklift Repair and Maintenance Services?
+  Operational Efficiency Improvements
                     </button>
+                    <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5">
+                    At Qimam Affan Fork-lifts, we use our expert consultancy service and data-driven strategies to improve productivity. Our efficiency measures cover:
+                  </p>
 
-                  <ul className="flex flex-col gap-[14px] mt-7  lg:ml-5">
-                  <div className="   items-start gap-2">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-    <FaSquare size={10} className="text-[#313131]" />
-    Professionally qualified and experienced technician
-  </li>
-  <span className="font-normal ">
-  All Qimam Affan staff are maintenance specialists trained to carry out repairs, regardless of the type of forklift, be it a Toyota, electric or any other make, model or brand of forklift. Rest assured that your equipment will receive the utmost care and attention. Your technicians will not only identify but will also accurately and promptly resolve any problem so that they can get your equipment back to work without unnecessary delays. Extend the life of your forklift through comprehensive and dependable quality repairs.
-  </span>
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    {/* <span className="font-bold">Range of Forklift Parts:</span>  */}
+Reducing energy consumption for electric forklifts.
+  </p>
+</div>   
+
+
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    {/* <span className="font-bold">Range of Forklift Parts:</span>  */}
+Optimizing workflow logistics for better performance.
+  </p>
 </div>
 
 
 
-       <div className="   items-start gap-2">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-    <FaSquare size={10} className="text-[#313131]" />
-    Affordable and Clear Pricing
-  </li>
-  <span className="font-normal ">
-  We know how challenging it can be to keep your business up and running without going over budget. That’s why, here at Qimam Affan, we offer complete forklift repair and maintenance  services at low prices and no hidden charges. With us, there is no ambiguity about the estimate– we give you definite numbers. Whether simple or more complex, we will address all of your repair needs and provide you with a transparent and clear estimate. Additionally, if you’re curious about forklift prices in KSA, we can help you find options that meet your financial and business expectations.
-  </span>
-</div>          
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    {/* <span className="font-bold">Range of Forklift Parts:</span>  */}
+Implementing AI-powered diagnostic tools for quick issue detection.
+  </p>
+</div>
 
 
-<div className="   items-start gap-2">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-    <FaSquare size={10} className="text-[#313131]" />
-    We aim to provide the best turnaround time
-  </li>
-  <span className="font-normal ">
-  Regardless of the type of business you operate, downtime can drain your money and time. This is why we do everything in our power to guarantee a fast turnaround time at Qimam Affan. Our skilled technicians are trained to execute all repairs and maintenance tasks with the highest standards of quality and efficiency. Whether you require urgent repairs or routine maintenance, our goal is to reduce operational downtime by getting your equipment back in action as quickly as possible.
-  </span>
-</div>      
-
-
-
-<div className="   items-start gap-2">
-  <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px] list-none">
-    <FaSquare size={10} className="text-[#313131]" />
-    Customer Focused Service
-  </li>
-  <span className="font-normal ">
-  At A Qimam Affan, we are proud to state that we have a customer focused approach in every job we do. We recognize that every business is different and has particular set requirements, and that is why we take time to understand and give the relevant solutions. Our team is available around the clock to walk you through the steps, questions you may have, and ensure you get all the services that you need. We care about our clients and provide the best services and support at all times, which add more value to building strong relationships with clients.
-  </span>
-</div>      
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    {/* <span className="font-bold">Range of Forklift Parts:</span>  */}
+Enhancing forklift operator efficiency through structured training programs.
+  </p>
+</div>
 
 
 
 
 
 
-                    {/* <li className="flex gap-2 items-center font-Poppins font-bold text-[#313131] lg:text-[15px]">
-                      <FaSquare
-                        size={"10"}
-                        className="text-[#313131]"
-                      />
-                       Forklift Price in KSA<span className="font-normal">:In case your company wants to get a new forklift, we can assist in understanding the forklift price in KSA, and help you save money that’s beneficial for your company.</span>
-                    </li> */}
-                  </ul>
+
+
+  <button className="font-Inter font-semibold text-left text-xl sm:text-2xl text-[#02416A] transition-all duration-500 hover:[#02416A] mt-14 mb-4">
+ Technology Integration and Innovation
+                    </button>
+                    <p className="font-Poppins font-light text-black border-t border-BorderColor1-0 pt-5">
+                    At Qimam Affan we make full use of cutting-edge technologies in improving forklift maintenance and operational performance. This includes:
+                  </p>
+
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    {/* <span className="font-bold">Range of Forklift Parts:</span>  */}
+IoT-based fleet monitoring systems for real-time tracking.
+  </p>
+</div>  
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    {/* <span className="font-bold">Range of Forklift Parts:</span>  */}
+Reducing energy consumption for electric forklifts.
+  </p>
+</div>  
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    {/* <span className="font-bold">Range of Forklift Parts:</span>  */}
+Smart automation solutions to improve warehouse logistics.
+  </p>
+</div>  
+ <div className="flex items-start gap-2 lg:ml-5">
+  <FaSquare size={10} className="mt-2 text-[#313131] sm:font-black text-2xl"  />
+  <p className="font-Poppins text-[#313131]">
+    {/* <span className="font-bold">Range of Forklift Parts:</span>  */}
+Integration of software solutions for seamless fleet coordination.
+  </p>
+</div>  
+
+
+
+                 
   
 
 
                   <button className="font-Inter font-semibold text-left text-xl sm:text-2xl text-[#02416A] transition-all duration-500 hover:[#02416A] mt-14 mb-4">
-                  What are the Benefits of Qimam Affan?
+                 Why Choose Qimam Affan for Forklift Services?
                     </button>
-                  <p className="font-Poppins font-light ">
+                   
+
+
+ 
+
+
+
+<div className="flex items-start gap-2 mt-2">
+  {/* <FaSquare size={15} className="mt-1 text-[#313131] sm:font-black text-2xl"  /> */}
+  <p className="font-Poppins text-[#313131]">
+    <span className="font-bold">Expertise & Experience: </span> 
+   Years of hands-on experience in handling all kinds of forklift models and brands
+  </p>
+</div>   
+<div className="flex items-start gap-2 mt-2">
+  {/* <FaSquare size={15} className="mt-1 text-[#313131] sm:font-black text-2xl"  /> */}
+  <p className="font-Poppins text-[#313131]">
+    <span className="font-bold">Reliable & Cost-Effective Solutions: </span> 
+   Priced fairly while providing uncompromised service quality.
+  </p>
+</div>   
+<div className="flex items-start gap-2 mt-2">
+  {/* <FaSquare size={15} className="mt-1 text-[#313131] sm:font-black text-2xl"  /> */}
+  <p className="font-Poppins text-[#313131]">
+    <span className="font-bold">24/7 Support: </span> 
+  Among Y Living Tech’s specialties is emergency repair service. Now available whenever it’s needed as always!
+  </p>
+</div>   
+<div className="flex items-start gap-2 mt-2">
+  {/* <FaSquare size={15} className="mt-1 text-[#313131] sm:font-black text-2xl"  /> */}
+  <p className="font-Poppins text-[#313131]">
+    <span className="font-bold">Certified Professionals: </span> 
+  Skilled technicians with the latest training
+  </p>
+</div>   
+<div className="flex items-start gap-2 mt-2">
+  {/* <FaSquare size={15} className="mt-1 text-[#313131] sm:font-black text-2xl"  /> */}
+  <p className="font-Poppins text-[#313131]">
+    <span className="font-bold">Client-Centric Approach: </span> 
+ Maintenance plans are tailored to fit in with your particular kind of business
+  </p>
+</div>   
+
+
+
+
+
+                  {/* <p className="font-Poppins font-light ">
                   By selecting Qimam Affan, you are not just another customer for us, but rather someone that we put our full efforts in making sure you achieve success in your business. We want to make sure you have success in business, and that’s why we put all the heavy lifting on our shoulders. We guarantee there won’t be any extra expenses when you use our maintenance and repair services because we charge reasonable prices and don’t hide any fees. Our highly trained operators are available to help you with anything from regular maintenance of your forklift to emergency repairs, and even guidance on how much a forklift costs in KSA. With us, your business can always be running at an optimal level because we provide
                   <span className="text-[#FD9F00] font-medium">  training </span>,maintenance services and ensure your forklifts are functional.
-                  </p>
+                  </p> */}
 
 
                   <button className="font-Inter font-semibold text-left text-xl sm:text-2xl text-[#02416A] transition-all duration-500 hover:[#02416A] mt-14 mb-4">
-                Branded Forklifts Need Care? Call Qimam Affan for Expert Repair Services!
+                  Contact Us
                     </button>
                   <p className="font-Poppins font-light mb-14">
-                  We’ve got you covered when it comes to forklift repairs or maintenance. Whether it’s a branded forklift from Toyota, Cat, Electric Forklifts or any other top of the line forks, Master Qimam Affan has the knowledge to ensure your machine is always operating optimally. 
-                  <span className="text-[#FD9F00] font-medium">  Contact us  </span> for a free consultation. Let’s make sure your branded forklifts are working perfectly
+                 At Qimam Affan Forklifts, we are committed to providing expert forklift consultancy services and 
+                  <span className="text-[#FD9F00] font-medium"> training </span> to help you enhance efficiency, safety, and cost-effectiveness. Whether you need fleet management optimization, forklift safety guidance, or customized maintenance strategies, our experts are here to assist.
+                   <span className="text-[#FD9F00] font-medium"> Contact us  </span>today to discuss how we can support your forklift operations!
                   </p>
-  
+
+
+                 
                  
                 </div>
                 {/* <div className="flex flex-col sm:flex-row gap-5 items-start sm:justify-between border-t border-BorderColor1-0 mt-9 py-5 px-4 sm:px-8">

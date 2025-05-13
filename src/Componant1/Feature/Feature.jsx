@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import boxImg from "/images/allimg/icons/1.png";
 import boxImg2 from "/images/allimg/icons/2.png";
 import boxImg3 from "/images/allimg/icons/3.png";
@@ -14,9 +15,10 @@ const Feature = () => {
               <img src={boxImg}  />
             </div>
             <div className=" mt-2">
+              <Link to='supplying-spare-parts'> 
               <h5 className="font-Inter font-semibold text-[22px] text-black uppercase">
               forklift spare parts
-              </h5>
+              </h5></Link>
               
             </div>
           </div>
@@ -27,9 +29,11 @@ const Feature = () => {
               <img src={boxImg2}  />
             </div>
 <div className=" mt-2">
+<Link to='supplying-spare-parts'> 
   <h5 className="font-Inter font-semibold text-[22px] text-black uppercase">
-  forklift spare parts
+  Service Contracts
   </h5>
+  </Link>
   
 </div>
 </div>
@@ -41,7 +45,7 @@ const Feature = () => {
             </div>
 <div className=" mt-2">
   <h5 className="font-Inter font-semibold text-[22px] text-black uppercase">
-  forklift spare parts
+  Repair and maintenance
   </h5>
   
 </div>
@@ -53,7 +57,11 @@ const Feature = () => {
             </div>
 <div className=" mt-2">
   <h5 className="font-Inter font-semibold text-[22px] text-black uppercase">
-  forklift spare parts
+  Forklift batteries
+
+
+
+
   </h5>
   
 </div>

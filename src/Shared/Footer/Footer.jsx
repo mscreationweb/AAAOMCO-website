@@ -161,7 +161,7 @@ const Footer = () => {
             </h4>
             <ul>
               <li>
-                <Link to={"/"}>
+                <Link to={"/repair-maintenance"}>
                   <button className="flex items-center gap-2 font-Inter text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     Repair & Maintenance
@@ -171,7 +171,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to={"/"}>
+                <Link to={"/service-contracts"}>
                   <button className="flex items-center gap-2 font-Inter  text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     Service Contracts
@@ -181,7 +181,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to={"/"}>
+                <Link to={"/supplying-spare-parts"}>
                   <button className="flex items-center gap-2 font-Inter  text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     Supplying Spare Parts
@@ -191,7 +191,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to={"/"}>
+                <Link to={"/consultancy"}>
                   <button className="flex items-center gap-2 font-Inter  text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     Consultancy
@@ -201,7 +201,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to={"/"}>
+                <Link to={"/trainings"}>
                   <button className="flex items-center gap-2 font-Inter  text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     Trainings
@@ -231,7 +231,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to={"/"}>
+                <Link to={"/about"}>
                   <button className="flex items-center gap-2 font-Inter  text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     About Us
@@ -241,7 +241,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to={"/"}>
+                <Link to={"/contact"}>
                   <button className="flex items-center gap-2 font-Inter  text-[#02416A] transition-all duration-500 hover:text-[#02416A] hover:gap-1 mb-4 hover:underline mt-5 text-[15px]">
                     {/* <FaChevronRight className="text-sm opacity-50" /> */}
                     Contact Us
