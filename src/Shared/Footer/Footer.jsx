@@ -99,56 +99,57 @@ const Footer = () => {
               </li>
             </ul>
           </div> */}
-          <div className="2xl:col-span-2">
+          <div className="2xl:col-span-3">
             <h4 className="font-Inter text-[14px] text-black  mb-[30px] uppercase font-bold">
             About Us
             <hr className="border-t-[2px] border-gray-300 w-full mt-2"/>
             </h4>
            
             <div className="flex gap-5 mb-5">
-              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#02416A]">
+              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#FD9F00] flex items-center justify-center text-white text-xl bg-[#FD9F00]">
                 <FiPhoneCall />
               </div>
               <div className="flex-1 mt-2">
-              <a href="tel:+966554496650">
-             <h6 className="font-Inter font-medium text-[15px] text-black">+966 554496650</h6>
+              <a href="tel:+966549272708">
+             <h6 className="font-Inter font-medium text-[15px] text-black">+966 549 272 708</h6>
               </a>
 
                 
               </div>
             </div>
             <div className="flex gap-5 mb-5">
-              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#02416A]">
+              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#FD9F00] flex items-center justify-center text-white text-xl bg-[#FD9F00]">
                 <FiGlobe />
               </div>
               <div className="flex-1 mt-2">
-                <a href="https://www.qimamaffan.com/" target="_blank">
+                <a href="https://www. aaaomco.com/" target="_blank">
               <h6 className="font-Inter font-medium text-[15px] text-[#02416A]">
-              www.qimamaffan.com
+              aaaomco.com
                 </h6></a>
                 
               </div>
             </div>
             <div className="flex gap-5 mb-5">
-              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#02416A]">
+              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#FD9F00] flex items-center justify-center text-white text-xl bg-[#FD9F00]">
                 <HiOutlineMail />
               </div>
               <div className="flex-1 mt-2">
-                <a href="mailto:info@qimamaffan.com">
+                <a href="mailto:Info@aaaomco.com">
               <h6 className="font-Inter font-medium text-[15px]  text-[#02416A]">
-              info@qimamaffan.com
+              Info@aaaomco.com
                 </h6></a>
                 
               </div>
             </div>
             <div className="flex gap-5 mb-5">
-              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#43559F] flex items-center justify-center text-white text-xl bg-[#02416A]">
+              <div className="h-[44px] w-[44px] rounded-full border border-dashed border-[#FD9F00] flex items-center justify-center text-white text-xl bg-[#FD9F00]">
                 <FiMapPin />
               </div>
               <div className="flex-1 mt-2">
                 <a href="#">
               <h6 className="font-Inter font-medium text-[15px] text-black ">
-              Sinaiya Mousa, Riyadh, Saudi Arabia
+              makkah al mukkaramah <br/>street, Thuqbah Al khobar 34626,kingdom of Saudi Arabia
+
                 </h6></a>
                 
               </div>

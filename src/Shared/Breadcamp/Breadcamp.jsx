@@ -12,7 +12,7 @@ const Breadcamp = ({
   breadCampContent,
 }) => {
   return (
-    <div className="bg-[url('/images/breatcome-bg.png')] bg-no-repeat bg-cover bg-center flex items-center h-[400px] sm:h-[450px] text-center pt-20">
+    <div className="bg-[url('/images/allimg/mainbg/1.jpg')] bg-no-repeat bg-cover bg-center flex items-center h-[400px] sm:h-[450px] text-center pt-20">
       <div className="Container relative">
         {/* <img
           src={breadCampShape}

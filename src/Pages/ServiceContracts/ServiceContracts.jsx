@@ -26,11 +26,12 @@ import {
 import { BiSolidQuoteAltRight, BiSolidShare } from "react-icons/bi";
 import Breadcamp from "../../Shared/Breadcamp/Breadcamp";
 import Portfolio from "../../Componant2/Portfolio/Portfolio";
+import Breadcamp2 from "../../Shared/Breadcamp2/Breadcamp2";
 
 const ServiceContracts = () => {
   return (
     <>
-      <Breadcamp
+      <Breadcamp2
         breadCampTitle={"Service Contracts"}
         // url={"/blog"}
         // breadcampIcon={<FaArrowRightLong />}

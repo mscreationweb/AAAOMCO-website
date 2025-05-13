@@ -17,6 +17,9 @@ import ServiceCard from "./ServiceCard";
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
 import Support from "../../../Componant1/Support/Support";
 import Pricing from "../../../Componant1/Pricing/Pricing";
+import White from "../../../Shared/White/White";
+import About from "../../../Componant3/About/About";
+import ContactLocation from "../ContactInner/ContactLocation";
 
 const serviceData = [
   {
@@ -102,12 +105,12 @@ const serviceData = [
 const ServiceInner = () => {
   return (
     <>
-      <Breadcamp
+      <White
         breadCampTitle={"Our Services"}
         breadcampIcon={<FaArrowRightLong />}
         breadCampContent={"Our Services"}
       />
-      <section className="pt-28 pb-40 p relative z-10 bg-[#f3f3f7]">
+      {/* <section className="pt-28 pb-40 p relative z-10 bg-[#f3f3f7]">
         <div className="Container">
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
             <div>
@@ -164,9 +167,11 @@ const ServiceInner = () => {
             </div>
           </div>
         </div>
-      </section>
-      <Support />
-      <Pricing />
+      </section> */}
+      <About/>
+      <ContactLocation/>
+      {/* <Support /> */}
+      {/* <Pricing /> */}
     </>
   );
 };

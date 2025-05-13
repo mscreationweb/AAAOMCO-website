@@ -14,7 +14,7 @@ const processData = [
     boxNumber: "1",
     boxShape: boxShape,
     processTitle: "ADDRESS",
-    processDesc: "2nd Industrial City Services Centre , Riyadh Saudi Arabia",
+    processDesc: "makkah al mukkaramah street, Thuqbah Al khobar 34626,kingdom of Saudi Arabia",
   },
   {
     id: 2,
@@ -22,32 +22,32 @@ const processData = [
     boxNumber: "2",
     boxShape: boxShape,
     processTitle: "PHONE",
-    processDesc: "+966 554 496 650",
+    processDesc: "+966 549 272 708",
   },
   {
     id: 3,
     processIcon: processIcon3,
     boxNumber: "3",
     processTitle: "EMAIL",
-    processDesc: "info@qimamaffan.com",
+    processDesc: "Info@aaaomco.com",
   },
 ];
 
 const Process = () => {
   return (
     <section className="pt-28 pb-10 relative">
-      <div className="processShape">
+      {/* <div className="processShape">
         <img
           src={processShape}
           className="absolute left-0 top-1/3 -translate-y-1/2 animate-dance3 hidden 2xl:block"
         />
-      </div>
-      <div className="processShape2">
+      </div> */}
+      {/* <div className="processShape2">
         <img
           src={processShape2}
           className="absolute right-[5%] top-[20%] -translate-y-1/2 animate-movebtn hidden 2xl:block"
         />
-      </div>
+      </div> */}
       <div className="Container">
         {/* <div className="text-center">
           <div>

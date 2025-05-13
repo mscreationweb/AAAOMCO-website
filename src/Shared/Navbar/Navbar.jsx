@@ -230,10 +230,11 @@ const Navbar = () => {
                       : ""} text-[#02416A] text-left hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
                   to="#"
                 >
-                  <span className="flex items-center">
+                 <Link to='/service'> <span className="flex items-center">
                     Service
                     <BiChevronDown className="ml-1" />
                   </span>
+                  </Link>
                   <div className="absolute pt-5 lg:pt-8 z-20">
                     <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[220px] text-left transition-all duration-500 text-sm py-4 bg-[#02416A]">
                       <div className=" px-5 group hover:bg-[#FD9F00]">

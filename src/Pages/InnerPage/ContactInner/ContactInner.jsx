@@ -3,11 +3,12 @@ import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
 import Appointment from "../../../Componant3/Appointment/Appointment";
 import ContactLocation from "./ContactLocation";
 import Process from "../../../Componant1/Process/Process";
+import White from "../../../Shared/White/White";
 
 const ContactInner = () => {
   return (
     <>
-      <Breadcamp
+      <White
         breadCampTitle={"Contact Us"}
         // breadcampIcon={<FaArrowRightLong />}
         // breadCampContent={"Contact Us"}
