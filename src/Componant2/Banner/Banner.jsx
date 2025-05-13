@@ -17,15 +17,17 @@ const Banner = () => {
     <div className="relative">
       <Swiper {...settings}>
         <SwiperSlide>
-        <section className="bg-[url('/images/allimg/bg/Banner1.webp')] bg-cover bg-center bg-no-repeat h-[300px] sm:h-[400px] flex items-center w-full">
+        <section className="bg-[url('/images/allimg/bg/Banner1.webp')] bg-contain sm:bg-cover bg-center bg-no-repeat h-[300px] sm:h-[400px] flex items-center w-full">
   <div className="w-full px-4 sm:px-6 lg:px-8">
-    <div className="relative max-w-screen-xl mx-auto">
-      <h1 className="font-Inter font-bold text-white text-[24px] leading-[36px] sm:text-4xl sm:leading-[60px] lg:text-[48px] 2xl:text-[60px] 2xl:leading-[70px] mt-6 mb-12">
-      Routine Maintenace <br/>Contracts
+    <div className="relative max-w-screen-xl mx-auto  "><br/>
+      <h1 className="font-Inter font-bold text-white text-[18px] leading-[26px] sm:text-3xl sm:leading-[44px] lg:text-[48px] 2xl:text-[60px] 2xl:leading-[70px] mt-6 mb-12   ">
+        Routine Maintenance <br /> Contracts
       </h1>
     </div>
   </div>
 </section>
+
+
 
         </SwiperSlide>
 
