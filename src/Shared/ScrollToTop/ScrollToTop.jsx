@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { FaArrowUpLong } from "react-icons/fa6";
+import Whatsapp from "../../Componant1/Whatsapp/Whatsapp";
 
 const ScrollToTop = () => {
   const [showScroll, setShowScroll] = useState(false);
@@ -24,6 +25,8 @@ const ScrollToTop = () => {
   };
 
   return (
+    <>
+   <Whatsapp/>
     <div className="relative">
       {showScroll && (
         <div
@@ -34,6 +37,7 @@ const ScrollToTop = () => {
         </div>
       )}
     </div>
+     </>
   );
 };
 

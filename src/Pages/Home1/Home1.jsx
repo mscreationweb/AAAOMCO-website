@@ -12,6 +12,7 @@ import Support from "../../Componant1/Support/Support";
 import Testimonial from "../../Componant1/Testimonial/Testimonial";
 import ImageGrid from "../../Componant1/ImageGrid/ImageGrid";
 import TeamWork from "../../Componant1/TeamWork/TeamWork";
+import Whatsapp from "../../Componant1/Whatsapp/Whatsapp";
 
 const Home1 = () => {
   return (
@@ -32,7 +33,7 @@ const Home1 = () => {
       {/* <Pricing /> */}
       {/* <Testimonial /> */}
       
-      
+      {/* <Whatsapp/> */}
     </>
   );
 };

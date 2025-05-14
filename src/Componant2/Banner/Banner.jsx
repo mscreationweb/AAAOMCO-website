@@ -17,23 +17,102 @@ const Banner = () => {
     <div className="relative">
       <Swiper {...settings}>
         <SwiperSlide>
-        <section className="bg-[url('/images/allimg/bg/Banner1.webp')] bg-contain sm:bg-cover bg-center bg-no-repeat h-[300px] sm:h-[400px] flex items-center w-full">
-  <div className="w-full px-4 sm:px-6 lg:px-8">
-    <div className="relative max-w-screen-xl mx-auto  "><br/>
-      <h1 className="font-Inter font-bold text-white text-[18px] leading-[26px] sm:text-3xl sm:leading-[44px] lg:text-[48px] 2xl:text-[60px] 2xl:leading-[70px] mt-6 mb-12   ">
-        Routine Maintenance <br /> Contracts
+   <section className="bg-[url('/images/allimg/bg/Banner1.webp')] bg-contain sm:bg-cover bg-center bg-no-repeat h-[300px] sm:h-[400px] flex items-center w-full -mt-[70px] sm:mt-0">
+  <div className="w-full px-4 sm:px-6 lg:px-8 ">
+    <div className="relative max-w-screen-xl mx-auto " >
+      <h1 className="font-Inter font-bold text-white text-[18px] leading-[26px] sm:text-3xl sm:leading-[44px] lg:text-[48px] 2xl:text-[60px] 2xl:leading-[70px] mt-6 mb-12 ">
+        <br/>
+        <span> Routine Maintenance <br /> Contracts</span>
       </h1>
     </div>
   </div>
 </section>
 
+        </SwiperSlide>
 
+
+
+ <SwiperSlide>
+   <section className="bg-[url('/images/allimg/bg/Banner2.webp')] bg-contain sm:bg-cover bg-center bg-no-repeat h-[300px] sm:h-[400px] flex items-center w-full -mt-[70px] sm:mt-0">
+  <div className="w-full px-4 sm:px-6 lg:px-8 ">
+    <div className="relative max-w-screen-xl mx-auto " >
+      <h1 className="font-Inter font-bold text-white text-[18px] leading-[26px] sm:text-3xl sm:leading-[44px] lg:text-[48px] 2xl:text-[60px] 2xl:leading-[70px] mt-6 mb-12 ">
+        <br/>
+         Reliable Forklifts <br/>Parts Supply
+      </h1>
+    </div>
+  </div>
+</section>
+
+        </SwiperSlide>
+
+
+         <SwiperSlide>
+   <section className="bg-[url('/images/allimg/bg/Banner3.webp')] bg-contain sm:bg-cover bg-center bg-no-repeat h-[300px] sm:h-[400px] flex items-center w-full -mt-[70px] sm:mt-0">
+  <div className="w-full px-4 sm:px-6 lg:px-8 ">
+    <div className="relative max-w-screen-xl mx-auto " >
+      <h1 className="font-Inter font-bold text-white text-[18px] leading-[26px] sm:text-3xl sm:leading-[44px] lg:text-[48px] 2xl:text-[60px] 2xl:leading-[70px] mt-6 mb-12 ">
+        <br/>
+        Forklift Maintenance <br/>And Repair
+      </h1>
+    </div>
+  </div>
+</section>
 
         </SwiperSlide>
 
 
 
 
+ <SwiperSlide>
+   <section className="bg-[url('/images/allimg/bg/Banner4.webp')] bg-contain sm:bg-cover bg-center bg-no-repeat h-[300px] sm:h-[400px] flex items-center w-full -mt-[70px] sm:mt-0">
+  <div className="w-full px-4 sm:px-6 lg:px-8 ">
+    <div className="relative max-w-screen-xl mx-auto " >
+      <h1 className="font-Inter font-bold text-white text-[18px] leading-[26px] sm:text-3xl sm:leading-[44px] lg:text-[48px] 2xl:text-[60px] 2xl:leading-[70px] mt-6 mb-12 ">
+        <br/>
+        Quick-response <br/>Emergency Solutions
+      </h1>
+    </div>
+  </div>
+</section>
+
+        </SwiperSlide>
+        
+
+
+<SwiperSlide>
+   <section className="bg-[url('/images/allimg/bg/Banner5.webp')] bg-contain sm:bg-cover bg-center bg-no-repeat h-[300px] sm:h-[400px] flex items-center w-full -mt-[70px] sm:mt-0">
+  <div className="w-full px-4 sm:px-6 lg:px-8 ">
+    <div className="relative max-w-screen-xl mx-auto " >
+      <h1 className="font-Inter font-bold text-white text-[18px] leading-[26px] sm:text-3xl sm:leading-[44px] lg:text-[48px] 2xl:text-[60px] 2xl:leading-[70px] mt-6 mb-12 ">
+        <br/>
+         New Parts Supply
+      </h1>
+    </div>
+  </div>
+</section>
+
+        </SwiperSlide>
+
+
+
+        
+<SwiperSlide>
+   <section className="bg-[url('/images/allimg/bg/Banner6.webp')] bg-contain sm:bg-cover bg-center bg-no-repeat h-[300px] sm:h-[400px] flex items-center w-full -mt-[70px] sm:mt-0">
+  <div className="w-full px-4 sm:px-6 lg:px-8 ">
+    <div className="relative max-w-screen-xl mx-auto " >
+      <h1 className="font-Inter font-bold text-white text-[18px] leading-[26px] sm:text-3xl sm:leading-[44px] lg:text-[48px] 2xl:text-[60px] 2xl:leading-[70px] mt-6 mb-12 ">
+        <br/>
+          Prompt Emergency <br/>Call Solution
+      </h1>
+    </div>
+  </div>
+</section>
+
+        </SwiperSlide>
+
+
+{/* 
         <SwiperSlide>
         <section className="bg-[url('/images/allimg/bg/Banner2.webp')] bg-cover bg-center bg-no-repeat h-[300px] sm:h-[400px] flex items-center w-full">
   <div className="w-full px-4 sm:px-6 lg:px-8">
@@ -45,13 +124,13 @@ const Banner = () => {
   </div>
 </section>
 
-        </SwiperSlide>
+        </SwiperSlide> */}
         
 
 
 
 
-        <SwiperSlide>
+        {/* <SwiperSlide>
         <section className="bg-[url('/images/allimg/bg/Banner3.webp')] bg-cover bg-center bg-no-repeat h-[300px] sm:h-[400px] flex items-center w-full">
   <div className="w-full px-4 sm:px-6 lg:px-8">
     <div className="relative max-w-screen-xl mx-auto">
@@ -62,13 +141,13 @@ const Banner = () => {
   </div>
 </section>
 
-        </SwiperSlide>
+        </SwiperSlide> */}
 
 
 
 
         
-        <SwiperSlide>
+        {/* <SwiperSlide>
         <section className="bg-[url('/images/allimg/bg/Banner4.webp')] bg-cover bg-center bg-no-repeat h-[300px] sm:h-[400px] flex items-center w-full">
   <div className="w-full px-4 sm:px-6 lg:px-8">
     <div className="relative max-w-screen-xl mx-auto">
@@ -79,14 +158,14 @@ const Banner = () => {
   </div>
 </section>
 
-        </SwiperSlide>
+        </SwiperSlide> */}
 
 
 
 
 
         
-        <SwiperSlide>
+        {/* <SwiperSlide>
         <section className="bg-[url('/images/allimg/bg/Banner5.webp')] bg-cover bg-center bg-no-repeat h-[300px] sm:h-[400px] flex items-center w-full">
   <div className="w-full px-4 sm:px-6 lg:px-8">
     <div className="relative max-w-screen-xl mx-auto">
@@ -97,14 +176,14 @@ const Banner = () => {
   </div>
 </section>
 
-        </SwiperSlide>
+        </SwiperSlide> */}
 
 
 
 
 
         
-        <SwiperSlide>
+        {/* <SwiperSlide>
         <section className="bg-[url('/images/allimg/bg/Banner6.webp')] bg-cover bg-center bg-no-repeat h-[300px] sm:h-[400px] flex items-center w-full">
   <div className="w-full px-4 sm:px-6 lg:px-8">
     <div className="relative max-w-screen-xl mx-auto">
@@ -115,7 +194,7 @@ const Banner = () => {
   </div>
 </section>
 
-        </SwiperSlide>
+        </SwiperSlide> */}
 
 
         {/* <SwiperSlide>
