@@ -26,6 +26,7 @@ import {
 import { BiSolidQuoteAltRight, BiSolidShare } from "react-icons/bi";
 import Breadcamp from "../../Shared/Breadcamp/Breadcamp";
 import Breadcamp3 from "../../Shared/Breadcamp3/Breadcamp3";
+import ImgCard from "../../Componant3/ImgCard/ImgCard";
 
 const Supplying  = () => {
   return (
@@ -38,6 +39,7 @@ const Supplying  = () => {
         // breadCampLink={"Blog"}
         // breadCampContent={"Floor Cleaning Using New Equipment"}
       />
+      <ImgCard/>
       <section className="py-28 -mb-40">
         <div className="Container lg:w-full w-auto ">
           <div className="grid grid-cols-1 lg:grid-cols-1 gap-12 ">
