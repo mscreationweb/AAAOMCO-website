@@ -16,7 +16,7 @@ const ContactInner = () => {
       />
       <Process/>
       <Appointment />
-      <ContactLocation/>
+{/*       <ContactLocation/> */}
     </>
   );
 };
